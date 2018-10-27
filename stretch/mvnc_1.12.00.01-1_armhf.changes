@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 01 May 2018 23:35:10 +0800
+Source: mvnc
+Binary: python-mvnc python3-mvnc
+Architecture: armhf
+Version: 1.12.00.01-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ python-mvnc - Intel Movidius Neural Compute SDK
+ python3-mvnc - Intel Movidius Neural Compute SDK
+Changes:
+ mvnc (1.12.00.01-1) unstable; urgency=medium
+ .
+   * Update to v1.12.00.01.
+Checksums-Sha1:
+ 580408ba759dc98ea5ef483d3ac1b0a1907def0f 5887 mvnc_1.12.00.01-1_armhf.buildinfo
+ 230f4a8623ba860163af3cd12c453e88658a1651 5420 python-mvnc_1.12.00.01-1_armhf.deb
+ ecc0ef3f50a0415ba1c8c536ac4ad92569f0bc67 5498 python3-mvnc_1.12.00.01-1_armhf.deb
+Checksums-Sha256:
+ d46c4558404f814ae10da937064475cbb0744c8b943e2796d18d5967d2666679 5887 mvnc_1.12.00.01-1_armhf.buildinfo
+ 248f9d709c2c7f3e43a7f985448357cb8100d19127fe68baf4ca056dd8c65398 5420 python-mvnc_1.12.00.01-1_armhf.deb
+ dad8385abbf1d27ae0e00e88f97251f30454488d2b1057761cd98c21989ede8c 5498 python3-mvnc_1.12.00.01-1_armhf.deb
+Files:
+ 4ad1075c4d2c6083174cbf14f22832a8 5887 python optional mvnc_1.12.00.01-1_armhf.buildinfo
+ 26338392f0c4fcd61215007718f48976 5420 python optional python-mvnc_1.12.00.01-1_armhf.deb
+ 1fa70175b4c69ce9185c15153c9047e9 5498 python optional python3-mvnc_1.12.00.01-1_armhf.deb

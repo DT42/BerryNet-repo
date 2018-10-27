@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 21 Jul 2018 15:13:42 +0000
+Source: nnpack
+Binary: nnpack
+Architecture: armhf
+Version: 20170518-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ nnpack     - Acceleration package for neural networks on multi-core CPUs
+Changes:
+ nnpack (20170518-1) unstable; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ ff6de4a5f02ebdc09adae1d88e1cc13eff48fb9a 4773 nnpack_20170518-1_armhf.buildinfo
+ e08a1991441dc1601843ee7ac8bae7d506eb3e36 211582 nnpack_20170518-1_armhf.deb
+Checksums-Sha256:
+ 9d57f8b1ef153f8af93dd844284ffa138500c83b7184a2bd820a85511e25735e 4773 nnpack_20170518-1_armhf.buildinfo
+ ef59962bb8f61adb930eebf1d1335b0dec9b80b6bfd03687adca1352c95983b3 211582 nnpack_20170518-1_armhf.deb
+Files:
+ 2c3c1c8f05bb5de2cfbd2ab75fcdeb1d 4773 libs optional nnpack_20170518-1_armhf.buildinfo
+ 9d59cc8d4aee690d13f6adc375dfd20d 211582 libs optional nnpack_20170518-1_armhf.deb

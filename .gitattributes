@@ -1,0 +1,10 @@
+inception-movidius_3_all.deb filter=lfs diff=lfs merge=lfs -text
+inception-movidius_3.tar.xz filter=lfs diff=lfs merge=lfs -text
+*dbgsym* filter=lfs diff=lfs merge=lfs -text
+opencv-doc_3.2.0+dfsg-4dt421_all.deb filter=lfs diff=lfs merge=lfs -text
+tinyyolococo_20170816_all.deb filter=lfs diff=lfs merge=lfs -text
+tinyyolococo_20170816.tar.xz filter=lfs diff=lfs merge=lfs -text
+tinyyolo-movidius_1_all.deb filter=lfs diff=lfs merge=lfs -text
+tinyyolo-movidius_1.tar.xz filter=lfs diff=lfs merge=lfs -text
+tinyyolovoc_20170816_all.deb filter=lfs diff=lfs merge=lfs -text
+tinyyolovoc_20170816.tar.xz filter=lfs diff=lfs merge=lfs -text

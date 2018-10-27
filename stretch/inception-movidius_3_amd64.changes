@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 19:06:54 +0800
+Source: inception-movidius
+Binary: inception-movidius
+Architecture: source all
+Version: 3
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ inception-movidius - <insert up to 60 chars description>
+Changes:
+ inception-movidius (3) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ e36f517f09c07be5b1284dc0e3f395b4f4c2026d 612 inception-movidius_3.dsc
+ f48719b6b1ee0fc5fa2d29607de4112813bcea7e 48863444 inception-movidius_3.tar.xz
+ e952c5f232ca2519ce99d5427ec0f92f88e104c1 48862082 inception-movidius_3_all.deb
+Checksums-Sha256:
+ 51ad925f06be9f334a63ebad1207e451b2c4c5f711133e3fa8ea0acea3ec395e 612 inception-movidius_3.dsc
+ cbb7d6361036751a1d9b5c57a90eaf53520a3da91c579134b75f3a268f24419c 48863444 inception-movidius_3.tar.xz
+ d5a15caddc86bec8bcfe4ed2fdb19a62bfd1dab779fe7ad1e04431eed8c4b6b1 48862082 inception-movidius_3_all.deb
+Files:
+ 4463735e746785942f7a0f5adad5d09c 612 unknown optional inception-movidius_3.dsc
+ f860543ed8616ee212610bb0fdac59cc 48863444 unknown optional inception-movidius_3.tar.xz
+ d53c179c175e3fb78288b0fa3200984f 48862082 unknown optional inception-movidius_3_all.deb

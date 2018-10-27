@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 19:18:57 +0800
+Source: tinyyolovoc
+Binary: tinyyolovoc
+Architecture: source all
+Version: 20170816
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ tinyyolovoc - <insert up to 60 chars description>
+Changes:
+ tinyyolovoc (20170816) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 8b95d1c191044946273a7b6415c297cb9b1e323b 598 tinyyolovoc_20170816.dsc
+ c63374f09313a55d3adce5a810365c49ab0e6699 58109068 tinyyolovoc_20170816.tar.xz
+ d54805be19b04f8b7a29831102cc1fb5a37c58a8 58107280 tinyyolovoc_20170816_all.deb
+Checksums-Sha256:
+ da293ccd940eb20be8106a578670aa0112439f16d427adb677769e85aab84e50 598 tinyyolovoc_20170816.dsc
+ f0bca47ed306c2f8d7a3671ae1e6d1f89726c3bd74d89d0e70f8533c4c973308 58109068 tinyyolovoc_20170816.tar.xz
+ 10e185d44be690edd8e099a167cb2502c9138bb62d2d49d754ca020032be9d41 58107280 tinyyolovoc_20170816_all.deb
+Files:
+ ed8ff1e8f9d5a45e8e113a7996420866 598 unknown optional tinyyolovoc_20170816.dsc
+ 5b74890e9ded341833646c0188e10689 58109068 unknown optional tinyyolovoc_20170816.tar.xz
+ 1a4f68136b9f5fc047692a742ccf27d7 58107280 unknown optional tinyyolovoc_20170816_all.deb

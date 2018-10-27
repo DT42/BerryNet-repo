@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 18:59:05 +0800
+Source: mobilenet-ssd-movidius
+Binary: mobilenet-ssd-movidius
+Architecture: source all
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ mobilenet-ssd-movidius - <insert up to 60 chars description>
+Changes:
+ mobilenet-ssd-movidius (1.0.0) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ b7035352c9f0c5793ec46f9bcacb980b0d33ebb0 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 3ea470dfdef67ec3bc8df57f4d160d730b3a5aa9 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+ 59ae2be8c95778d194b349e5501feb7de1a524cf 10304498 mobilenet-ssd-movidius_1.0.0_all.deb
+Checksums-Sha256:
+ fc17491737e8a4e637bd3681801d5404dcc9b084e2e0a05f4171c061bc5dd26f 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 861ce6f5c0ee347fd5cf8878a5be8f7e16395f04aab40ef902bfcd67c3ed4a5f 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+ f5eeb4d3cf772006466cadc606cfd75aab5b94fd96dcc2754654c17194db5693 10304498 mobilenet-ssd-movidius_1.0.0_all.deb
+Files:
+ d3f71ab34cf076f612be6da0bf2acb63 652 unknown optional mobilenet-ssd-movidius_1.0.0.dsc
+ 82a47ae58ef62bcd5f38504fc721be1f 10303280 unknown optional mobilenet-ssd-movidius_1.0.0.tar.xz
+ f7bb6981d4c3693d0ec8f8ac055d31dd 10304498 unknown optional mobilenet-ssd-movidius_1.0.0_all.deb

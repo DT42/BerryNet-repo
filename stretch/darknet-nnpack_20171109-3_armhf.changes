@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sun, 07 Oct 2018 08:36:46 +0000
+Source: darknet-nnpack
+Binary: darknet libdarknet
+Architecture: source armhf
+Version: 20171109-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ darknet    - Darknet: Open Source Neural Networks in C
+ libdarknet - Darknet: Open Source Neural Networks in C
+Changes:
+ darknet-nnpack (20171109-3) unstable; urgency=medium
+ .
+   * Fix debianization.
+Checksums-Sha1:
+ e4b83212247fec8476ce177ae15c301082390a6c 1018 darknet-nnpack_20171109-3.dsc
+ 937b0bbd8ebd1009a2c4b70b6f21da4182ea3e46 2664 darknet-nnpack_20171109-3.debian.tar.xz
+ dbf08ad97ae4da54dddb496ae288f124f36ff9c9 18242 darknet-dbgsym_20171109-3_armhf.deb
+ 38a81d159112dafda84a6bc83a4b8b980b8f2807 5854 darknet-nnpack_20171109-3_armhf.buildinfo
+ 5f65e499e32ef0518fe9f34faa7fb7b5319ce0bd 285362 darknet_20171109-3_armhf.deb
+ 19d9a6eea9782a323703b4d3ee4a40f1fb9de7ea 15428 libdarknet-dbgsym_20171109-3_armhf.deb
+ e54615f1d756c8f894190d0862fc19189cbb1fb4 252832 libdarknet_20171109-3_armhf.deb
+Checksums-Sha256:
+ e5aafffa542be22bc72d53b995ec2d889edb578390561238ebd7b7c9ef26fbe9 1018 darknet-nnpack_20171109-3.dsc
+ 73e7f3efdd7ba0e23b49f2bde900baf37b05f47da2bde5927f90dc3db1836be0 2664 darknet-nnpack_20171109-3.debian.tar.xz
+ eb18f8ecc15eccc9960a1bc1a6de78408f8e1fb2ae8ee1cf57caa668675efa1e 18242 darknet-dbgsym_20171109-3_armhf.deb
+ 86ffb409f2a6f3732b5b4b8b702120b52320224d623fb2d88c71c16462e2bb48 5854 darknet-nnpack_20171109-3_armhf.buildinfo
+ 1c37d50e8773967b54d0bb2cc47566b8a18e935376cbd14dc5358c1d37f37b35 285362 darknet_20171109-3_armhf.deb
+ c2067be60de643be89f1da5de840251307db0b5e8fc4e9138423ce904943de04 15428 libdarknet-dbgsym_20171109-3_armhf.deb
+ 8cf728b9115cced749f35a509e17e4ba552b1791e7a67379ba0e6befa31de860 252832 libdarknet_20171109-3_armhf.deb
+Files:
+ 797d73144bb8fb045a2646fd84fa743b 1018 libs optional darknet-nnpack_20171109-3.dsc
+ b8ecb8b14e3bde8c748595fd9ad20fa6 2664 libs optional darknet-nnpack_20171109-3.debian.tar.xz
+ 4a77305a25259397cff8987261d7f102 18242 debug extra darknet-dbgsym_20171109-3_armhf.deb
+ a2adeb8bff27c6ef575632033f8c246f 5854 libs optional darknet-nnpack_20171109-3_armhf.buildinfo
+ 57ba9ca07d1a55cb0060509121996926 285362 libs optional darknet_20171109-3_armhf.deb
+ a47a069f5e88313ce11901ee4698f2b4 15428 debug extra libdarknet-dbgsym_20171109-3_armhf.deb
+ f49fee63942c689b505ae2092007c869 252832 libs optional libdarknet_20171109-3_armhf.deb

@@ -1,0 +1,263 @@
+Format: 1.8
+Date: Mon, 11 Dec 2017 17:16:38 +0000
+Source: opencv
+Binary: opencv-doc libopencv-dev opencv-data libopencv-core-dev libopencv-core3.2 libopencv-ml-dev libopencv-ml3.2 libopencv-imgproc-dev libopencv-imgproc3.2 libopencv-imgcodecs-dev libopencv-imgcodecs3.2 libopencv-video-dev libopencv-video3.2 libopencv-videoio-dev libopencv-videoio3.2 libopencv-objdetect-dev libopencv-objdetect3.2 libopencv-highgui-dev libopencv-highgui3.2 libopencv-calib3d-dev libopencv-calib3d3.2 libopencv-flann-dev libopencv-flann3.2 libopencv-features2d-dev libopencv-features2d3.2 libopencv-ts-dev libopencv-photo-dev libopencv-photo3.2 libopencv-videostab-dev libopencv-videostab3.2 libopencv-stitching-dev libopencv-stitching3.2 libopencv-shape-dev libopencv-shape3.2 libopencv-superres-dev libopencv-superres3.2 libopencv-viz-dev libopencv-viz3.2 libopencv-contrib-dev libopencv-contrib3.2 libopencv3.2-java libopencv3.2-jni python-opencv python3-opencv
+Architecture: armhf all
+Version: 3.2.0+dfsg-4dt421
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Changed-By: Bofu Chen <bofu@dt42.io>
+Description:
+ libopencv-calib3d-dev - development files for libopencv-calib3d3.2
+ libopencv-calib3d3.2 - computer vision Camera Calibration library
+ libopencv-contrib-dev - development files for libopencv-contrib3.2
+ libopencv-contrib3.2 - computer vision contrlib library
+ libopencv-core-dev - development files for libopencv-core3.2
+ libopencv-core3.2 - computer vision core library
+ libopencv-dev - development files for opencv
+ libopencv-features2d-dev - development files for libopencv-features2d3.2
+ libopencv-features2d3.2 - computer vision Feature Detection and Descriptor Extraction libra
+ libopencv-flann-dev - development files for libopencv-flann3.2
+ libopencv-flann3.2 - computer vision Clustering and Search in Multi-Dimensional spaces
+ libopencv-highgui-dev - development files for libopencv-highgui3.2
+ libopencv-highgui3.2 - computer vision High-level GUI and Media I/O library
+ libopencv-imgcodecs-dev - development files for libopencv-imgcodecs3.2
+ libopencv-imgcodecs3.2 - computer vision Image Codecs library
+ libopencv-imgproc-dev - development files for libopencv-imgproc3.2
+ libopencv-imgproc3.2 - computer vision Image Processing library
+ libopencv-ml-dev - development files for libopencv-ml3.2
+ libopencv-ml3.2 - computer vision Machine Learning library
+ libopencv-objdetect-dev - development files for libopencv-objdetect3.2
+ libopencv-objdetect3.2 - computer vision Object Detection library
+ libopencv-photo-dev - development files for libopencv-photo3.2
+ libopencv-photo3.2 - computer vision computational photography library
+ libopencv-shape-dev - development files for libopencv-shape3.2
+ libopencv-shape3.2 - computer vision shape descriptors and matchers library
+ libopencv-stitching-dev - development files for libopencv-stitching3.2
+ libopencv-stitching3.2 - computer vision image stitching library
+ libopencv-superres-dev - development files for libopencv-superres3.2
+ libopencv-superres3.2 - computer vision Super Resolution library
+ libopencv-ts-dev - development files for TS library of OpenCV (Open Computer Vision)
+ libopencv-video-dev - development files for libopencv-video3.2
+ libopencv-video3.2 - computer vision Video analysis library
+ libopencv-videoio-dev - development files for libopencv-videoio3.2
+ libopencv-videoio3.2 - computer vision Video I/O library
+ libopencv-videostab-dev - development files for libopencv-videostab3.2
+ libopencv-videostab3.2 - computer vision video stabilization library
+ libopencv-viz-dev - development files for libopencv-viz3.2
+ libopencv-viz3.2 - computer vision 3D data visualization library
+ libopencv3.2-java - Java bindings for the computer vision library
+ libopencv3.2-jni - Java jni library for the computer vision library
+ opencv-data - development data for opencv
+ opencv-doc - OpenCV documentation and examples
+ python-opencv - Python bindings for the computer vision library
+ python3-opencv - Python 3 bindings for the computer vision library
+Changes:
+ opencv (3.2.0+dfsg-4dt421) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+Checksums-Sha1:
+ 5c7470fb64410ff6432ed9cb46961b8d22e68b79 494136 libopencv-calib3d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 8373ebd74f7deb43fbc6cc0f11cb170fc5264e45 4157112 libopencv-calib3d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 6c1f47f884b6946b9bf88e5896ffa5c2923873c5 391626 libopencv-calib3d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ d7562f25e5ae57941fe7cb8d310162781e11027a 1891314 libopencv-contrib-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 0aa9db066d4ce53151b7743569a1102e40fb9a7a 18153884 libopencv-contrib3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 99929cb71731472ce1cf93d446577ad782c20dc8 1308946 libopencv-contrib3.2_3.2.0+dfsg-4dt421_armhf.deb
+ c008e57ba3a92aaec0ae7cee7e18442329716468 1123822 libopencv-core-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 75e7efb69cab9f1f80b3acbef1829f4fcf7b78d8 5532206 libopencv-core3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ a9f9c14f7682ec5ca5c046ee16960055b1a25628 642690 libopencv-core3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 534b664a1a47282043f85368a8755da1c3e5bd32 2249122 libopencv-dev-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ b1fc811b0e0f1b99859652cf2f562aeffe8ffe6b 216380 libopencv-dev_3.2.0+dfsg-4dt421_armhf.deb
+ c985a1f155ed569810383d0bd278582780774da4 265330 libopencv-features2d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 7e41ce2328cc50df71a8936fc16122118cc43586 2317426 libopencv-features2d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 9517e803624343e64b38671dd794b4d7054b2886 196056 libopencv-features2d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ a4f37fbc10a0ce91618a920477aff766e9257e5f 180354 libopencv-flann-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 3f36d0268270f2972e98d0dd44789134323221ac 812802 libopencv-flann3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 5f23794fa2b9d3a6424281449be0d7e345722aab 86406 libopencv-flann3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 64c8df809f1499dc36624bd9bce147f5941a23d3 43942 libopencv-highgui-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 607edfe36e633865f3195c29df7d090e0bfa04d3 187604 libopencv-highgui3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 7be70e9af98a601dbd5dd285ee1165d92172c89e 29454 libopencv-highgui3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 57adabdd6ec277188c5c67891620351cf47dca2c 124968 libopencv-imgcodecs-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 5164ef3c8b5ebb774a4add65bab48551a8d4852e 1396100 libopencv-imgcodecs3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ b5a5b5f746ecac9beb73e672c8205b9bc2fa650e 76646 libopencv-imgcodecs3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 4ff285ff4142eb508de2668c170a655a2a22fa6c 971330 libopencv-imgproc-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 65acde7be477be3658aceed0b4fb957a6ed50ce1 5827616 libopencv-imgproc3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ c9a10e59cbc0277a254935cfc93cee42b79703aa 716438 libopencv-imgproc3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 3016fba1473ca5b908c572d481fd27ee6553adae 294516 libopencv-ml-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 21eaf808c4aadc790b89d3c23f58cedf98a5fa6c 1958872 libopencv-ml3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ f29691518ef37b71fb07190a8aaaea6a5c28d360 209520 libopencv-ml3.2_3.2.0+dfsg-4dt421_armhf.deb
+ b52631745a28ae8fc6e0de9a8d265205759c9d2a 173276 libopencv-objdetect-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 4d503a4f4d8829457956fcea0867a5a88e724bab 1054904 libopencv-objdetect3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 6ed275fddc7e845c5dea777ec3f719a7caf93b99 136894 libopencv-objdetect3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 2b082e56d33e692d2b07920943e80ea6bf8f7e1f 227548 libopencv-photo-dev_3.2.0+dfsg-4dt421_armhf.deb
+ f4599fb876d8a3599bbbab6b6bc191a9c34abbc7 1656706 libopencv-photo3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 41616f19ad815b93e35baa205dd72eed23ace734 178708 libopencv-photo3.2_3.2.0+dfsg-4dt421_armhf.deb
+ fee645ce8eb8a3eece7496f76ea19fe5f98c929b 81470 libopencv-shape-dev_3.2.0+dfsg-4dt421_armhf.deb
+ d1881827cb2aa9b895a2bf55c8dbbf4c7c875d20 673598 libopencv-shape3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 47951d9d2f9399f7bd4506bf1f0404011d3b353c 60890 libopencv-shape3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 7257b5753424f123bb9f1600c66412e0e1082e7e 216272 libopencv-stitching-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 7c280c01028b39212c76e96c9fed3cfe410f5122 2004630 libopencv-stitching3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ a44ce8bd3cbad498cde1ac89ff189c4bd07270b7 158002 libopencv-stitching3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 2a33a6048d633707325f9413e0efbd4a586e01e3 66078 libopencv-superres-dev_3.2.0+dfsg-4dt421_armhf.deb
+ d1f0f34231f355c2b9fea43d52cd5c727a024715 575614 libopencv-superres3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 1d797950fed2c92f17e9e7947565bb5fb7cc8bc4 49178 libopencv-superres3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 62922e2b5456c516a82ad9a8bef0bff09dfcd5f6 287084 libopencv-ts-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 69040698cb7144d5ca735c19f6a2fea41274ca71 154344 libopencv-video-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 6b2cb30a570c7f82c6b0b9abce63d563e735558a 996748 libopencv-video3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 8e5bc77e81b2f2924596519091f3523099eaa0bf 118212 libopencv-video3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 29765e0af4dca9c979bcfb89462e8cda13ae374e 125780 libopencv-videoio-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 1ce89e418c1f941947c55209b4d2afd8a8d627ef 811046 libopencv-videoio3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 1c71e2ea84bb19a00bc6b7b76038b5c50da7e45f 82398 libopencv-videoio3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 680a0f9781a4a483b8a353b3621aeb9b5f8ca69b 128508 libopencv-videostab-dev_3.2.0+dfsg-4dt421_armhf.deb
+ ad702c8fb683fde8a25fc1892f4efd716e3fdfc0 1060998 libopencv-videostab3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 8148d05e75c66338275af3a7bf58109d66d617dc 95966 libopencv-videostab3.2_3.2.0+dfsg-4dt421_armhf.deb
+ f57330fa63f333fd74909a8566b94562794ca28c 1396124 libopencv-viz-dev_3.2.0+dfsg-4dt421_armhf.deb
+ cd1de15844df8d522c20084fce32242e5fd694e5 1306682 libopencv-viz3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ b8a8a7502e45f7b9f0a0e7a3882e9f0a92beae0e 112840 libopencv-viz3.2_3.2.0+dfsg-4dt421_armhf.deb
+ be9971190263bdfe9ce3e96e26f00e501a86744f 397126 libopencv3.2-java_3.2.0+dfsg-4dt421_all.deb
+ bfe345edfe9c93b7905e6adfedc201f852b78e74 2226654 libopencv3.2-jni-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 1c5ec6e3c287f9cb6636428d73f59f328e3e944b 184154 libopencv3.2-jni_3.2.0+dfsg-4dt421_armhf.deb
+ 2dd7dee995cd9e4fb84a8ac764b7b514b7bf687a 1206440 opencv-data_3.2.0+dfsg-4dt421_all.deb
+ 45956e2ac16ba33b4621291a3c3d71101925f831 59837544 opencv-doc_3.2.0+dfsg-4dt421_all.deb
+ f8fa6afd2cd748630504181496403bd659e03422 44611 opencv_3.2.0+dfsg-4dt421_armhf.buildinfo
+ 7bd7472a990286bcdec8893bb03332bb87e1dc2e 2869688 python-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 28778dd7670bdcfb24d683f3fb8e5f332606c30b 538730 python-opencv_3.2.0+dfsg-4dt421_armhf.deb
+ d8537c41d7a3009d3118bd87f95957d7e305a78b 2874208 python3-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 1fb5faed7ae86d467fd3f96b42708db0c613faed 538476 python3-opencv_3.2.0+dfsg-4dt421_armhf.deb
+Checksums-Sha256:
+ 662db2a1a1c5f5f6a88fe1c48c02681381fe1730055388db7b2d355d21486726 494136 libopencv-calib3d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 28c43358c33a4ae492fa3b875bba296fecc751a13b17e299231adea83f19d1e7 4157112 libopencv-calib3d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ d602ea75795fce3610969faa484cd26745efa4f2083d48f250ae9201edba681c 391626 libopencv-calib3d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ be28421fcb090f07cc104b9687601c24341ace6efc2e2c264bb3464ae096ad10 1891314 libopencv-contrib-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 0649b5cfa9b37415192970c2d9a38f7c3d298e24444f32b5ca3c87d8f58b2418 18153884 libopencv-contrib3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ de40241b27f6036e95a7a49d43061b57b09eb63aec245bea57ac6ad6a545b1ff 1308946 libopencv-contrib3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 2350f867e74b13cac351c5d22b225ecd132f07715354b475082ebbd1f2cf0f29 1123822 libopencv-core-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 053004ec9e460b6a4405925f74f3f19c4587fcf33cb038d0240b055a17ddaaf0 5532206 libopencv-core3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0a7f6fef316adc0284ed23f4a1ffa82e3837d83e1e932bd5582adc995ddc3d83 642690 libopencv-core3.2_3.2.0+dfsg-4dt421_armhf.deb
+ b055a4a40d3f03039b99f1f8ceaf1a9575ddb2e93f88d1ab4dac5403737d6ec9 2249122 libopencv-dev-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ a4b1e16b2aae0f45963f931f3ec4171eab9357407a0431c77b3e4a4aeb25cac3 216380 libopencv-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 7eb67dbcf50472ccbc6c5127116a5e6ee316426080c39ea4218a06c662627069 265330 libopencv-features2d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 758ab917c0c74da210061d120233ab501d151202dbb5cac404552c9b8e264586 2317426 libopencv-features2d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ ef0df0d3461bfaf70c965399c09f9b888a167393835f255d833fba8c513ee519 196056 libopencv-features2d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 2f587ff749d311dbd2d39aec07f8af744163a0c29dca539a49419e252f15f2d0 180354 libopencv-flann-dev_3.2.0+dfsg-4dt421_armhf.deb
+ ad1c7c4e609df54a4e4346e9b95cf37c4b03e5b82088578c28f3e9facc7cc0e7 812802 libopencv-flann3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ b2e79377da7f3a31bff6379079a16622b2566b22444fb4c865bc86fd1c311b40 86406 libopencv-flann3.2_3.2.0+dfsg-4dt421_armhf.deb
+ cbae2fd5bc970d23ef5304c69a064c0ebc71cadf1049f05683cb64ba4655a9de 43942 libopencv-highgui-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 5698272367581121a6f2fbb6906b9ebb88f090cb804060c9184522b250c5d8bd 187604 libopencv-highgui3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ dafc283d68eb08723e21913c49395d55859f7b276cf516e648bafe5941ae984a 29454 libopencv-highgui3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 02860b64dbd85a117a53a07697f227e7a799d4fe68a79a9e713bafb5c31f7448 124968 libopencv-imgcodecs-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 3c9b5c6a2e89e3250860b25ac42d6b6349b2c628b5ee249a30b5c286e93bdb74 1396100 libopencv-imgcodecs3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0f38798338e22d35a138682c7b37227297dfcc5d2ef2975ceea21bfc85f08003 76646 libopencv-imgcodecs3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 48882f6c028ba042e57c2d3700e2af3a96e138deddeaa6a605e8e2836a7d0fd5 971330 libopencv-imgproc-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 5d48f1dad7f4b08d0bab9cf64cb8d0e9a2ce4a2bf4ecd18477e49ee8243a6767 5827616 libopencv-imgproc3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ f987c7a6fde7cf36a168c806fe5b8ab8c48c943620a0c5a70f06f871f1946592 716438 libopencv-imgproc3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 3ba3cdd2efb67ead072180933eb76d42e3524eb51f9cb49dd4b60c44e34b9ede 294516 libopencv-ml-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 29db75d39b8b3098728b62efd3ae92dd35cd5388bd759ff89bec6951c566ad96 1958872 libopencv-ml3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 118da5267fb264c3173f40a3bc8b612c1bbba32ec2d44543f8f59967cf137826 209520 libopencv-ml3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 9549cf9ae5556bf660f97ea36fe1c9b70c24ef61e3739baa6dc762dce4cb4502 173276 libopencv-objdetect-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 055d568cd6784f32cb754799369c0b2afd6b70d7d773cad175720c776edc8cb8 1054904 libopencv-objdetect3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 076db6202219aaef56f9617624617d9cad77f030957bab16e7d3b9bc2d7a28bc 136894 libopencv-objdetect3.2_3.2.0+dfsg-4dt421_armhf.deb
+ a160422d23996f003a7e41dc2f09b78e835f99d58f603f0617dfc7a5241ded37 227548 libopencv-photo-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 76d012a18249ea9d22ff03552d8ec325984a49e7637adac1f865ef62855d2f31 1656706 libopencv-photo3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ f09ce071faa4a7311bccff6120e5019e4fbdd7bff9559408c64530d79703645d 178708 libopencv-photo3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 6348b49d1b397de04533ee2267adf67259a93cb53e42e5b78aabfd06391871ba 81470 libopencv-shape-dev_3.2.0+dfsg-4dt421_armhf.deb
+ cfedc3fc26ab522c69f96090498db3290037d71b16d0c4aa555632492604bfa8 673598 libopencv-shape3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 7ee4a58cb276cf0460f114d050ffadbce908672904d0567264f795f798aa3fc4 60890 libopencv-shape3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 07e49613d77af83885f0fbcfb0cb9e449f622994dcbbbefe8ef8898cabcaeebe 216272 libopencv-stitching-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 4d91d5ffd9e6d29bcde39d8098d7433779a5c60c17ba65f7f221711a027610fa 2004630 libopencv-stitching3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 83ade6c5e6b844c28c7b753eb66965074b9aa0a31cb3850f97d81f6293cebec8 158002 libopencv-stitching3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 0224ba4337e3458111af2ec80ece24dc428c6e43c81598b7d7e8670844e6045b 66078 libopencv-superres-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 7ced99a964c9c40d7c2ef62a8e78aa476260d084bb6085a0288cc712d9843728 575614 libopencv-superres3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ a31f56d6e3edf64ed7bb8fea433f4b56ee802995b50b831f197ab5374b0a7fbf 49178 libopencv-superres3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 6a1e7cc3ddeca3aa80eb26d30d85b0779deb6f3392926fd1a5e8ffd79087d835 287084 libopencv-ts-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 8f416aef7b9d02590717e120a2f39f33e99b58852114352ec70b3667985b5c1d 154344 libopencv-video-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 0a91ffec0916dac7e2da7f4e1134f1cca7d5f08e010bd00226c4742bfba54665 996748 libopencv-video3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 527ede4be1f383a9e735b39e06b1c553e4ffc6fae32dee2cd18d66563595d7be 118212 libopencv-video3.2_3.2.0+dfsg-4dt421_armhf.deb
+ c97e7056a3646d655a00dd6e58850b8f5fe469d5125f0b000d4470cc0b2c601a 125780 libopencv-videoio-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 964c5ff1f970bca6cf7443073cb4d2e945ef421876966eed304c3059894cc38d 811046 libopencv-videoio3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 4aca27fc92002b131d8d7805a4e013be703851005f00799e1e3caed9275c32bc 82398 libopencv-videoio3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 13d89c744ff7314944146bc67710185a2e88f14bdf88a867284dd674bb7a3458 128508 libopencv-videostab-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 85fb61e7303e89174fe71e13e4f51fd46d051ad3e0e6cb9173cc46131146df51 1060998 libopencv-videostab3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 96b4557c3015b4daa9817df61f4f6baf72c03749029bffd9c816b9b971be2a07 95966 libopencv-videostab3.2_3.2.0+dfsg-4dt421_armhf.deb
+ e5404c6630ef5db6c71abf841d8ee78db6c75deb606e9e697229065884061935 1396124 libopencv-viz-dev_3.2.0+dfsg-4dt421_armhf.deb
+ c07e3d9a0910b418928a54ff9ee9ea346ab5f727a788cc2d8adda3084eebc1ee 1306682 libopencv-viz3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 96c7a3bf4212b0a3996aef691510f7fa8f48fce11b3f1b12cd9d7f0e9aca09b6 112840 libopencv-viz3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 558f1b924418368327906366e3477a3b7e201dae9de7441001a2dbc644c87942 397126 libopencv3.2-java_3.2.0+dfsg-4dt421_all.deb
+ 4ca8350fd69df2390d58c1ca59040a9ec58c5d3754d194d96fe6fae1979698bf 2226654 libopencv3.2-jni-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 587bccd370ad046e0a12fb61ba818b56a8fed9fcb072fcc8e934d4c339262a38 184154 libopencv3.2-jni_3.2.0+dfsg-4dt421_armhf.deb
+ 4197b02b17b7fd9de0086d6027f1c8eeddceafc413489f3f0268ec6bda0497a3 1206440 opencv-data_3.2.0+dfsg-4dt421_all.deb
+ 0b7abd3609fdfe910ec7f2412f4b74d0c048a9bd5eb74375d90eb1070ec6ade1 59837544 opencv-doc_3.2.0+dfsg-4dt421_all.deb
+ d873ff53552d55c82e7892dcb2ac86e881d1ba8bae4aa2d978903129293e6684 44611 opencv_3.2.0+dfsg-4dt421_armhf.buildinfo
+ 37a957fd78c3e76506e6aa4065c5fdbf1ac061a7f9577cb08139e15ff4aca562 2869688 python-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0a15a3e31441f044d44ef35035e24ebe20d80317c1f26452c79c0c731ff6bd59 538730 python-opencv_3.2.0+dfsg-4dt421_armhf.deb
+ 07ca34bf06f92c03142152ea058abc7037f4a275f56edbc5f009713171d726a8 2874208 python3-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 81bf9a446ab0f3f5e032cde5bb0389813d60233410f4d22d7ac80be6f295c81b 538476 python3-opencv_3.2.0+dfsg-4dt421_armhf.deb
+Files:
+ 691d7a08bef8d20333503ca58803aad8 494136 libdevel optional libopencv-calib3d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 73b90b6cb9ea3beb52aab29e263cb493 4157112 debug extra libopencv-calib3d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 7b070157e6996dec080684e6f3a2764f 391626 libs optional libopencv-calib3d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 84f3011e72a35ada260d35eb33659f2a 1891314 libdevel optional libopencv-contrib-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 588de95717a1fc2245b625167b384851 18153884 debug extra libopencv-contrib3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ ec53ad276b8abe4eb3c0c84bdccace30 1308946 libs optional libopencv-contrib3.2_3.2.0+dfsg-4dt421_armhf.deb
+ dcb4dec3e2415be51f5457c97dc2de40 1123822 libdevel optional libopencv-core-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 02edbeb19ee26e70db3613aa2fb64021 5532206 debug extra libopencv-core3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ c63bb6c8cd1fe1535f9440d068efbf7a 642690 libs optional libopencv-core3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 664c72364bbdcc40212d4d8d436802ec 2249122 debug extra libopencv-dev-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 4ef3bb3e1f1e4f0d28e501df2a7c2a7f 216380 libdevel optional libopencv-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 65f300f840e76942c60e18354cb5af36 265330 libdevel optional libopencv-features2d-dev_3.2.0+dfsg-4dt421_armhf.deb
+ d27b55069e236124dd61c0034fe89f34 2317426 debug extra libopencv-features2d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 8b4bf590d8bad97b86103893fb2b4858 196056 libs optional libopencv-features2d3.2_3.2.0+dfsg-4dt421_armhf.deb
+ bbba979e6da7ab64b426e92a9a492728 180354 libdevel optional libopencv-flann-dev_3.2.0+dfsg-4dt421_armhf.deb
+ ad0115052f9ce2d8a8658e5a3d104afe 812802 debug extra libopencv-flann3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0e62d0712001712f13a8afbbd3b1e813 86406 libs optional libopencv-flann3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 1ef1638417167763764331aac538df78 43942 libdevel optional libopencv-highgui-dev_3.2.0+dfsg-4dt421_armhf.deb
+ ad0b01d4cf26f5160efda19066133e9f 187604 debug extra libopencv-highgui3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 8f37b1bcac36f041f84d50e7971e3188 29454 libs optional libopencv-highgui3.2_3.2.0+dfsg-4dt421_armhf.deb
+ e90cdf063e26b86790888950402c893f 124968 libdevel optional libopencv-imgcodecs-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 53838a5edbe59cb17135e3daa6a13f7d 1396100 debug extra libopencv-imgcodecs3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 85fc5f1a6325c201f726e3588944d4c7 76646 libs optional libopencv-imgcodecs3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 30d0a2943e32039ff850e4fdc0476e94 971330 libdevel optional libopencv-imgproc-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 085691adda53ea7bac9e27ea3b567ccf 5827616 debug extra libopencv-imgproc3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 81bcf5106c52849dcf3a84e46ee8a01e 716438 libs optional libopencv-imgproc3.2_3.2.0+dfsg-4dt421_armhf.deb
+ cfa1c40d9c1d0c9c0ebf8be6e221bba5 294516 libdevel optional libopencv-ml-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 55b7d8a28af9a6ca7d28b7d39f0b2f5d 1958872 debug extra libopencv-ml3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 84ff79f1df5a1dbae0e6673e45d08894 209520 libs optional libopencv-ml3.2_3.2.0+dfsg-4dt421_armhf.deb
+ dfab17aa4d2f41a67c70c0341411716e 173276 libdevel optional libopencv-objdetect-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 2390d3d30bda6bb1028498d7af2198b6 1054904 debug extra libopencv-objdetect3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0382e01a0b3967edb4715ecbf3cb0b68 136894 libs optional libopencv-objdetect3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 6522b94282f1d6e1e81ac1a3b193cb76 227548 libdevel optional libopencv-photo-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 4d1db919236e94e01cfad3b264311262 1656706 debug extra libopencv-photo3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ e90c3a1ae71a6513e150f15fd46a700d 178708 libs optional libopencv-photo3.2_3.2.0+dfsg-4dt421_armhf.deb
+ abbc83481b1fe82ce95620d197926757 81470 libdevel optional libopencv-shape-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 8ef3dab9fa4bbe92c11b8a62f6f83d0a 673598 debug extra libopencv-shape3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 0c4b8f46b3294a1a15fdf6b97ee9076e 60890 libs optional libopencv-shape3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 56ebd376cdb125959b3fca02dc3ba831 216272 libdevel optional libopencv-stitching-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 7b7ef765d95a5cbcb0b255a5979520aa 2004630 debug extra libopencv-stitching3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ a721619d008dbf079ecccbc2bf2ade55 158002 libs optional libopencv-stitching3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 69e0a7e6e4edd7fd44d18e9361474a66 66078 libdevel optional libopencv-superres-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 4181269d0b82a6582ef0cae2a1050849 575614 debug extra libopencv-superres3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ ae825a183560489d6b6f25eceffdb11f 49178 libs optional libopencv-superres3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 9dc45f70881d94b838dd97423d8f790d 287084 libdevel optional libopencv-ts-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 776137ea7f52c52da2eca7cb0d53ab7b 154344 libdevel optional libopencv-video-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 8b37a559bd3923604dee90a762d74ade 996748 debug extra libopencv-video3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 039c1a0ba2394cbc2467b952c0904844 118212 libs optional libopencv-video3.2_3.2.0+dfsg-4dt421_armhf.deb
+ fbd00ee1009295cf4765bf55dede21c0 125780 libdevel optional libopencv-videoio-dev_3.2.0+dfsg-4dt421_armhf.deb
+ a8ec1a2c891521e238db4ad7ee321c8e 811046 debug extra libopencv-videoio3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ bf41f4eed3aaf28fff6f1ab9f199f5ba 82398 libs optional libopencv-videoio3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 9c4d4f32f6fd8b71e84a23ab4c1ddca5 128508 libdevel optional libopencv-videostab-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 459a6f686d59e173547238bb242353f3 1060998 debug extra libopencv-videostab3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ ceefd9d11ee17e2d20de63db17750f3b 95966 libs optional libopencv-videostab3.2_3.2.0+dfsg-4dt421_armhf.deb
+ 28853b5f32e63d2e4ba181c9df20c36a 1396124 libdevel optional libopencv-viz-dev_3.2.0+dfsg-4dt421_armhf.deb
+ 9587c1d912f2d8244fd8bae33384042a 1306682 debug extra libopencv-viz3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ e63a409d503f582da57fbfd08ff35004 112840 libs optional libopencv-viz3.2_3.2.0+dfsg-4dt421_armhf.deb
+ fa53009ca758bf6b63465e5c241c17ec 397126 java optional libopencv3.2-java_3.2.0+dfsg-4dt421_all.deb
+ 48741be72edac7bbfe7bd099d0504bac 2226654 debug extra libopencv3.2-jni-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 55a0faff9cb9c170e180e1cadffb143d 184154 devel optional libopencv3.2-jni_3.2.0+dfsg-4dt421_armhf.deb
+ 8567102c88ba28d70aea313fd02010b9 1206440 libdevel optional opencv-data_3.2.0+dfsg-4dt421_all.deb
+ e94ac042c63cc32b7d2aaacf6c44392d 59837544 doc optional opencv-doc_3.2.0+dfsg-4dt421_all.deb
+ 039caf3042d31b4689c499cc018c5d9d 44611 devel optional opencv_3.2.0+dfsg-4dt421_armhf.buildinfo
+ a100e24a84650578a363649608d86bc5 2869688 debug extra python-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ 295989d17c732c1b763d13d2559a4193 538730 python optional python-opencv_3.2.0+dfsg-4dt421_armhf.deb
+ 296b0a1c74ee3931c85e4f70a9a440a8 2874208 debug extra python3-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+ ddc1a382d34fbb886d3d877a1d0b1f2c 538476 python optional python3-opencv_3.2.0+dfsg-4dt421_armhf.deb

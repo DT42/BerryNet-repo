@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 19:15:18 +0800
+Source: tinyyolococo
+Binary: tinyyolococo
+Architecture: source all
+Version: 20170816
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ tinyyolococo - <insert up to 60 chars description>
+Changes:
+ tinyyolococo (20170816) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 88b1961ebdb2316b10a9c7860aec5d627673f6a2 604 tinyyolococo_20170816.dsc
+ 353d38ed15c1b8751f788e0c3a09dc4fc4ca1504 59419672 tinyyolococo_20170816.tar.xz
+ 925619a00d75dd71dd9cb6cf819193aefa8a63b4 59419418 tinyyolococo_20170816_all.deb
+Checksums-Sha256:
+ 3a92d0ec3708c6ad7c8e2529964c9fc7ad5e1091bc8509eb3e3c0e4aa395ff38 604 tinyyolococo_20170816.dsc
+ 143ef57d25429a0fa787f1dcfd917bfc773332f9504ca42f2f28c45550212aa1 59419672 tinyyolococo_20170816.tar.xz
+ 28dcf33b65658baa7e178afc6fc38fb8c5fd0b7d2ae22e954d8db6c2373e33ef 59419418 tinyyolococo_20170816_all.deb
+Files:
+ f9ac76d5f208967d62d343b7eddf34ef 604 unknown optional tinyyolococo_20170816.dsc
+ fea7305bc66e558b9b3c3c9fc2035b1c 59419672 unknown optional tinyyolococo_20170816.tar.xz
+ 2e63da3d6bd3ae2651c36e78b17492cd 59419418 unknown optional tinyyolococo_20170816_all.deb

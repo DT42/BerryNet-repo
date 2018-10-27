@@ -1,0 +1,156 @@
+Package: darknet-nnpack
+Format: 3.0 (quilt)
+Binary: darknet, libdarknet
+Architecture: armhf
+Version: 20171109-3
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Vcs-Git: https://github.com/digitalbrain79/darknet-nnpack.git
+Directory: stretch
+Package-List:
+ darknet deb libs optional arch=armhf
+ libdarknet deb libs optional arch=armhf
+Files:
+ 797d73144bb8fb045a2646fd84fa743b 1018 darknet-nnpack_20171109-3.dsc
+ 92f5ef87cf13b67f8a82c6979563c535 1905586 darknet-nnpack_20171109.orig.tar.gz
+ b8ecb8b14e3bde8c748595fd9ad20fa6 2664 darknet-nnpack_20171109-3.debian.tar.xz
+Checksums-Sha1:
+ e4b83212247fec8476ce177ae15c301082390a6c 1018 darknet-nnpack_20171109-3.dsc
+ 04207b51c27455687e8350148a19cf27aa36c9bc 1905586 darknet-nnpack_20171109.orig.tar.gz
+ 937b0bbd8ebd1009a2c4b70b6f21da4182ea3e46 2664 darknet-nnpack_20171109-3.debian.tar.xz
+Checksums-Sha256:
+ e5aafffa542be22bc72d53b995ec2d889edb578390561238ebd7b7c9ef26fbe9 1018 darknet-nnpack_20171109-3.dsc
+ 5d334f69dd86fcedaab843818b23c2e7b5539faadf04e059cf58b0a85042da8c 1905586 darknet-nnpack_20171109.orig.tar.gz
+ 73e7f3efdd7ba0e23b49f2bde900baf37b05f47da2bde5927f90dc3db1836be0 2664 darknet-nnpack_20171109-3.debian.tar.xz
+Checksums-Sha512:
+ 77f6e79f3b0bf8f39e0d6a5f945edeed88473ee9b2c7645cd555d58ad4c1cb9b1113aece13204e5e21966ada2c449b558557ea2efac8db98e8369c3757b8a14a 1018 darknet-nnpack_20171109-3.dsc
+ 5050a012604306262542dcf059ba7e091563466f77539971cfc32881437efb938cda3e28b3ec416594e37c951fa7cec9ecb0064b98049ba349640dc5402ec0ad 1905586 darknet-nnpack_20171109.orig.tar.gz
+ e7ea1861495e9dee71db5fff2c4587aa30a4814a145757f05b7c879185c989fcb3620849b1273b5f7b14e1c8bcc03f76f830f41e1a5d1940a23acde7c819ad2a 2664 darknet-nnpack_20171109-3.debian.tar.xz
+
+Package: tinyyolovoc
+Format: 3.0 (native)
+Binary: tinyyolovoc
+Architecture: all
+Version: 20170816
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: <insert the upstream URL, if relevant>
+Directory: stretch
+Package-List:
+ tinyyolovoc deb unknown optional arch=all
+Files:
+ ed8ff1e8f9d5a45e8e113a7996420866 598 tinyyolovoc_20170816.dsc
+ 5b74890e9ded341833646c0188e10689 58109068 tinyyolovoc_20170816.tar.xz
+Checksums-Sha1:
+ 8b95d1c191044946273a7b6415c297cb9b1e323b 598 tinyyolovoc_20170816.dsc
+ c63374f09313a55d3adce5a810365c49ab0e6699 58109068 tinyyolovoc_20170816.tar.xz
+Checksums-Sha256:
+ da293ccd940eb20be8106a578670aa0112439f16d427adb677769e85aab84e50 598 tinyyolovoc_20170816.dsc
+ f0bca47ed306c2f8d7a3671ae1e6d1f89726c3bd74d89d0e70f8533c4c973308 58109068 tinyyolovoc_20170816.tar.xz
+Checksums-Sha512:
+ 87fec64828d271a9bbac8500c5acdcc2ce3dc54dc701b4501a7f27588b5e4520ea86137f4b119c9ffa6f84cc7e870bcb326dd186f704df8add072ff04adadfb6 598 tinyyolovoc_20170816.dsc
+ 6904af36570718ceef5f3980616fc06b9a0ddc4e70fe4adac38b802529b3cca169826f2505c933d38bc2599411dc1415b4a9e424a2966922711b924b13fe6131 58109068 tinyyolovoc_20170816.tar.xz
+
+Package: tinyyolococo
+Format: 3.0 (native)
+Binary: tinyyolococo
+Architecture: all
+Version: 20170816
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: <insert the upstream URL, if relevant>
+Directory: stretch
+Package-List:
+ tinyyolococo deb unknown optional arch=all
+Files:
+ f9ac76d5f208967d62d343b7eddf34ef 604 tinyyolococo_20170816.dsc
+ fea7305bc66e558b9b3c3c9fc2035b1c 59419672 tinyyolococo_20170816.tar.xz
+Checksums-Sha1:
+ 88b1961ebdb2316b10a9c7860aec5d627673f6a2 604 tinyyolococo_20170816.dsc
+ 353d38ed15c1b8751f788e0c3a09dc4fc4ca1504 59419672 tinyyolococo_20170816.tar.xz
+Checksums-Sha256:
+ 3a92d0ec3708c6ad7c8e2529964c9fc7ad5e1091bc8509eb3e3c0e4aa395ff38 604 tinyyolococo_20170816.dsc
+ 143ef57d25429a0fa787f1dcfd917bfc773332f9504ca42f2f28c45550212aa1 59419672 tinyyolococo_20170816.tar.xz
+Checksums-Sha512:
+ 4eb64d1cbbef94a85098d11ff379bb7d54c1e5542947272309ce331dc02b25462873f99eed679b69338f4f825d768203f1a1b13fbcf9edf184cfb9d78803cb92 604 tinyyolococo_20170816.dsc
+ 62efeac0c6cb822e3cfd05645a973c35aa8d454b4fe9760a40ed00cb05a386782955dcd9c471fba316cca08bc0f91d4ee04c42a369be72bb80e29b44f53187c4 59419672 tinyyolococo_20170816.tar.xz
+
+Package: tinyyolo-movidius
+Format: 3.0 (native)
+Binary: tinyyolo-movidius
+Architecture: all
+Version: 1
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: <insert the upstream URL, if relevant>
+Directory: stretch
+Package-List:
+ tinyyolo-movidius deb unknown optional arch=all
+Files:
+ 6b3e04e5ae841fbcb099933ff43d821b 606 tinyyolo-movidius_1.dsc
+ 930535227913be28bc5abced0ffa76e8 80519984 tinyyolo-movidius_1.tar.xz
+Checksums-Sha1:
+ 672bc6ef9148acfd1196b0ecf79139771dff8ece 606 tinyyolo-movidius_1.dsc
+ 3f95d30b560de1bd931f62ee73da935cb53b53d7 80519984 tinyyolo-movidius_1.tar.xz
+Checksums-Sha256:
+ 54d27c954ab965d08111f92a5f068e45b5ae509b17740bcfacf932e4ba4a0441 606 tinyyolo-movidius_1.dsc
+ 80f219893459d38b7d69ea8e1f4c57530ea42676056ec2264b39e6e603925283 80519984 tinyyolo-movidius_1.tar.xz
+Checksums-Sha512:
+ 3a7dd4ea82a2818ffe89c10508196979c477b4ad0fdadfe0345625ec2feebb90ec39273e1b54d16d86541732b024f75facd04b34c659bae7762f6b5925506fd2 606 tinyyolo-movidius_1.dsc
+ 03248832c734c00c559316e515ac19443de8d5e63d7e1a52310787d725a5a92a257d06cdfb2ca4997d22ca4383cb169bb352387f749544d069d0552a03f8a60f 80519984 tinyyolo-movidius_1.tar.xz
+
+Package: inception-movidius
+Format: 3.0 (native)
+Binary: inception-movidius
+Architecture: all
+Version: 3
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: <insert the upstream URL, if relevant>
+Directory: stretch
+Package-List:
+ inception-movidius deb unknown optional arch=all
+Files:
+ 4463735e746785942f7a0f5adad5d09c 612 inception-movidius_3.dsc
+ f860543ed8616ee212610bb0fdac59cc 48863444 inception-movidius_3.tar.xz
+Checksums-Sha1:
+ e36f517f09c07be5b1284dc0e3f395b4f4c2026d 612 inception-movidius_3.dsc
+ f48719b6b1ee0fc5fa2d29607de4112813bcea7e 48863444 inception-movidius_3.tar.xz
+Checksums-Sha256:
+ 51ad925f06be9f334a63ebad1207e451b2c4c5f711133e3fa8ea0acea3ec395e 612 inception-movidius_3.dsc
+ cbb7d6361036751a1d9b5c57a90eaf53520a3da91c579134b75f3a268f24419c 48863444 inception-movidius_3.tar.xz
+Checksums-Sha512:
+ 057193324d1987e8aa8e4c6b2c2a0ca90609e04b62b296a2922e1ff07db923b70937bb64c6c6b32b29a25cbdb0f85f5a7c8154aafa24165f975d1a2c7b50a630 612 inception-movidius_3.dsc
+ 71685e3ec53bbb31fe2b91395aa6f9b43c79667703c621d0d64582724d4ec5e7de08b634a2efdfa44fce6b9d7c83ec090b4af3e77210c419a31a6016dd58f8a0 48863444 inception-movidius_3.tar.xz
+
+Package: mobilenet-ssd-movidius
+Format: 3.0 (native)
+Binary: mobilenet-ssd-movidius
+Architecture: all
+Version: 1.0.0
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: <insert the upstream URL, if relevant>
+Directory: stretch
+Package-List:
+ mobilenet-ssd-movidius deb unknown optional arch=all
+Files:
+ d3f71ab34cf076f612be6da0bf2acb63 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 82a47ae58ef62bcd5f38504fc721be1f 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+Checksums-Sha1:
+ b7035352c9f0c5793ec46f9bcacb980b0d33ebb0 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 3ea470dfdef67ec3bc8df57f4d160d730b3a5aa9 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+Checksums-Sha256:
+ fc17491737e8a4e637bd3681801d5404dcc9b084e2e0a05f4171c061bc5dd26f 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 861ce6f5c0ee347fd5cf8878a5be8f7e16395f04aab40ef902bfcd67c3ed4a5f 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+Checksums-Sha512:
+ f025abafbc81056a27bb5341e72e4be5d2c053c70fa99163e91cf25c9972a921ffd01b50654d08b05a2fb6a49f68c1cd4222d9617e2cdbdd0e44f5e89899d819 652 mobilenet-ssd-movidius_1.0.0.dsc
+ 9c9b5a5e6ed4afe64ceb8e066b216cc1bce747753c38a1ce1dddc6678790b01de4c018d08e3ad17abaea4e018226057a31f5637d4e2b01f81aa4b0b2381af464 10303280 mobilenet-ssd-movidius_1.0.0.tar.xz
+

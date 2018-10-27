@@ -1,0 +1,28 @@
+Origin: username
+Label: username
+Suite: Penthouse
+Codename: Penthouse
+Date: Sat, 27 Oct 2018 11:24:51 UTC
+Architectures: all amd64 armhf
+Description: My Happy Fun Packages
+MD5Sum:
+ 773a777b31793e157938da619e5046c8          105473 Packages
+ e9e9bcd354b0647000be70a7e6cfd0b8           22025 Packages.gz
+ 5842cb94a1abc5e573ace5e1a7f568b9           18863 Packages.bz2
+ 0add856c53dfa2c46f4f364e3dc290d1            7900 Sources
+ 618fccc9da46f33dfe6f63262ef4ee19            2914 Sources.gz
+ 14c4c2be3ad6bf168a864fe5c5bc1b21            2956 Sources.bz2
+SHA1:
+ 02850b710d2e2a6dc15b24cd79377daa702e9221          105473 Packages
+ 76ba6574c1eacd90bd0139b83fc84f5259bd730e           22025 Packages.gz
+ 4e2ac68aaa0bf81d0ff024f5b682b17987bbab81           18863 Packages.bz2
+ 108bcbd9a07bedfc2b8d90777804d258c42466f8            7900 Sources
+ 5fda324c347c16222b0255992a40c5806e0ae63e            2914 Sources.gz
+ 6922b9e0356f4a40f66e8895f3c8fa2b2c65702f            2956 Sources.bz2
+SHA256:
+ b70ef2326c52c03c56071d9c1711bd5eb737556f830da06b4578048ce1af02fb          105473 Packages
+ 176d1a47ec902105de60a6a445a9e50d90e33b5329cee7b65b746c88ddb973c7           22025 Packages.gz
+ 5671da327509d1ad7e7dad4e40442e155a21c996c0631ec36734378281cb6b3b           18863 Packages.bz2
+ 268fc6f19b6c112f401553c26d17f53109d9dbec8ab2c5ff5ef0087c904cfbb8            7900 Sources
+ fc7b53d807af39710d1a26a606f9e6bc15030c3f1e63202365b2a82005963117            2914 Sources.gz
+ 8f8df74bbbde26335ec7c8aef3e32cd4041d49aa1ae6c21d73f03ef2d618e4cf            2956 Sources.bz2

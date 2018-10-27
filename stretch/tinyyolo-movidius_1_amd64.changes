@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 19:23:08 +0800
+Source: tinyyolo-movidius
+Binary: tinyyolo-movidius
+Architecture: source all
+Version: 1
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ tinyyolo-movidius - <insert up to 60 chars description>
+Changes:
+ tinyyolo-movidius (1) unstable; urgency=medium
+ .
+   * Initial Release.
+Checksums-Sha1:
+ 672bc6ef9148acfd1196b0ecf79139771dff8ece 606 tinyyolo-movidius_1.dsc
+ 3f95d30b560de1bd931f62ee73da935cb53b53d7 80519984 tinyyolo-movidius_1.tar.xz
+ 5c0d5dd12f227ae5c423efc9d48dd40a67fe3946 80516176 tinyyolo-movidius_1_all.deb
+Checksums-Sha256:
+ 54d27c954ab965d08111f92a5f068e45b5ae509b17740bcfacf932e4ba4a0441 606 tinyyolo-movidius_1.dsc
+ 80f219893459d38b7d69ea8e1f4c57530ea42676056ec2264b39e6e603925283 80519984 tinyyolo-movidius_1.tar.xz
+ 5fafbd0c1a0587fefc5bb8b2de80ff66e547d70cb259857f08128b004693e03c 80516176 tinyyolo-movidius_1_all.deb
+Files:
+ 6b3e04e5ae841fbcb099933ff43d821b 606 unknown optional tinyyolo-movidius_1.dsc
+ 930535227913be28bc5abced0ffa76e8 80519984 unknown optional tinyyolo-movidius_1.tar.xz
+ 0c8a21a98900988b3fd3eff023e8ca3a 80516176 unknown optional tinyyolo-movidius_1_all.deb

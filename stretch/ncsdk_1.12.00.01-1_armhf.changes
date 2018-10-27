@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Tue, 01 May 2018 23:26:20 +0800
+Source: ncsdk
+Binary: ncsdk
+Architecture: armhf
+Version: 1.12.00.01-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Bofu Chen <bofu@dt42.io>
+Changed-By: Bofu Chen (bafu) <bofu@dt42.io>
+Description:
+ ncsdk      - Software Development Kit for the Neural Compute Stick
+Changes:
+ ncsdk (1.12.00.01-1) unstable; urgency=medium
+ .
+   * Update to v1.12.00.01.
+Checksums-Sha1:
+ 18036ac97e9322260d3718d742cdc74a8c848f56 4776 ncsdk_1.12.00.01-1_armhf.buildinfo
+ 53dc9e18430b4849e6e19d6ff02fc70fe87412ad 354736 ncsdk_1.12.00.01-1_armhf.deb
+Checksums-Sha256:
+ 520b1b79fb2c59b3c3855c623b56f8a8c8c1bedc4840a412380a50ed3be300e5 4776 ncsdk_1.12.00.01-1_armhf.buildinfo
+ c4ad279d4a6a2c2ddf9f504d6e8465c6810415b3d04ad58b3b0def4699aab9ce 354736 ncsdk_1.12.00.01-1_armhf.deb
+Files:
+ c6425eb3635b43f16e097f02871d162b 4776 unknown optional ncsdk_1.12.00.01-1_armhf.buildinfo
+ 8426cc883a90a337afb3d1dc730ff622 354736 unknown optional ncsdk_1.12.00.01-1_armhf.deb

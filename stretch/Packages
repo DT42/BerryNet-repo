@@ -1,0 +1,2122 @@
+Package: libopencv-imgproc3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 6160
+Depends: libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-imgproc3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 5827616
+MD5sum: 085691adda53ea7bac9e27ea3b567ccf
+SHA1: 65acde7be477be3658aceed0b4fb957a6ed50ce1
+SHA256: 5d48f1dad7f4b08d0bab9cf64cb8d0e9a2ce4a2bf4ecd18477e49ee8243a6767
+SHA512: 5024f032af27f7541cd6cbe3912c3d91ed642001f6b99280a495990223d25d7237d0818bf2715862d953925c98580b9397c3af1594f214552c75074ddb20fec7
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-imgproc3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: fea58530af926f05b8bb50e9a014db94218afb7c
+
+Package: libopencv-imgproc-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 4707
+Depends: libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-imgproc-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 971330
+MD5sum: 30d0a2943e32039ff850e4fdc0476e94
+SHA1: 4ff285ff4142eb508de2668c170a655a2a22fa6c
+SHA256: 48882f6c028ba042e57c2d3700e2af3a96e138deddeaa6a605e8e2836a7d0fd5
+SHA512: a1afe0126a1e33590c41cee9fa8404d13f5ecccebdcbd973afbccc0b65c19eb7390855c821435b038269e8a3a65ef1c476fe17a03bfbf4ba4277259b23d95802
+Homepage: https://opencv.org
+Description: development files for libopencv-imgproc3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Image Processing library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-flann-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1334
+Depends: libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-flann3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-flann-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 180354
+MD5sum: bbba979e6da7ab64b426e92a9a492728
+SHA1: a4f37fbc10a0ce91618a920477aff766e9257e5f
+SHA256: 2f587ff749d311dbd2d39aec07f8af744163a0c29dca539a49419e252f15f2d0
+SHA512: 7dd332582d1acd545740b96f78ce1d844a058bb66614fe2be35ef46a8be5d3ef2dd1e9796f5ac62ca32f95ca3578d47904e0b58bc419ecd7a6b4c6cdad8e3f4e
+Homepage: https://opencv.org
+Description: development files for libopencv-flann3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Clustering and Search
+ in Multi-Dimensional spaces library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-superres-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 292
+Depends: libopencv-superres3.2 (= 3.2.0+dfsg-4dt421), libopencv-video-dev (= 3.2.0+dfsg-4dt421), libopencv-videoio-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-superres-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 66078
+MD5sum: 69e0a7e6e4edd7fd44d18e9361474a66
+SHA1: 2a33a6048d633707325f9413e0efbd4a586e01e3
+SHA256: 0224ba4337e3458111af2ec80ece24dc428c6e43c81598b7d7e8670844e6045b
+SHA512: cd5bc68b470df97d6cf604aa84e8b4b1c39c10eea2c05e5ab5595134dce68c1f73e14581da250b020383101deb11957e513040a973e4bd89c212e13ce682fffe
+Homepage: https://opencv.org
+Description: development files for libopencv-superres3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Super Resolution library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-superres3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 117
+Depends: libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-superres3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 49178
+MD5sum: ae825a183560489d6b6f25eceffdb11f
+SHA1: 1d797950fed2c92f17e9e7947565bb5fb7cc8bc4
+SHA256: a31f56d6e3edf64ed7bb8fea433f4b56ee802995b50b831f197ab5374b0a7fbf
+SHA512: 202a3920ca8f802fc3c1a57a071ef7d4da7ef00790b48653c92e6693c40b1144822734abb9a7de072f50788b0b0ff4ef18912d2edf0f5d198aa501ffe035dde1
+Homepage: https://opencv.org
+Description: computer vision Super Resolution library
+ This package contains the OpenCV (Open Computer Vision) Super Resolution
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv3.2-jni-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2427
+Depends: libopencv3.2-jni (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv3.2-jni-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2226654
+MD5sum: 48741be72edac7bbfe7bd099d0504bac
+SHA1: bfe345edfe9c93b7905e6adfedc201f852b78e74
+SHA256: 4ca8350fd69df2390d58c1ca59040a9ec58c5d3754d194d96fe6fae1979698bf
+SHA512: c02326714b7f7a24870aea917158afaf8840314475791115504c1e4ad7a3de43e6ebcf6d3a56a3d2e1d6188e426e7a7b6b645c25f19230366153eefc475bed2a
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv3.2-jni
+Auto-Built-Package: debug-symbols
+Build-Ids: 3f60d0219f17cda05b98a53b5c232181aa1f22a8
+
+Package: libopencv-ml3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2023
+Depends: libopencv-ml3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-ml3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1958872
+MD5sum: 55b7d8a28af9a6ca7d28b7d39f0b2f5d
+SHA1: 21eaf808c4aadc790b89d3c23f58cedf98a5fa6c
+SHA256: 29db75d39b8b3098728b62efd3ae92dd35cd5388bd759ff89bec6951c566ad96
+SHA512: e75fc98b4fc0edc41b90dc9d70e893b152c40b29b2c5e963eb0d866be396c601f467b9aff8730514d3101bb33ecb087a71e6a3ee7c304ea901aa69c543cdbc23
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-ml3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 581cca82d246615c722c1d915671f3376abee7eb
+
+Package: python-opencv
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: python
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1742
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421), libopencv-flann3.2 (= 3.2.0+dfsg-4dt421), libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421), libopencv-shape3.2 (= 3.2.0+dfsg-4dt421), libopencv-stitching3.2 (= 3.2.0+dfsg-4dt421), libopencv-superres3.2 (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421), libopencv-videostab3.2 (= 3.2.0+dfsg-4dt421), libopencv-viz3.2 (= 3.2.0+dfsg-4dt421), python (<< 2.8), python (>= 2.7~), python-numpy (>= 1:1.10.0~b1), python-numpy-abi9, python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-contrib3.2, libopencv-core3.2, libstdc++6 (>= 5.2)
+Filename: stretch/python-opencv_3.2.0+dfsg-4dt421_armhf.deb
+Size: 538730
+MD5sum: 295989d17c732c1b763d13d2559a4193
+SHA1: 28778dd7670bdcfb24d683f3fb8e5f332606c30b
+SHA256: 0a15a3e31441f044d44ef35035e24ebe20d80317c1f26452c79c0c731ff6bd59
+SHA512: 44c1de878322ef7dd2b1427f9ff9fb24e13eda9cb91df106c7824fd742ca9f506e6bba6ae25acbf6702a56f3a6c078b3045f8380b5a74f5ca0b33d27d8981029
+Homepage: https://opencv.org
+Description: Python bindings for the computer vision library
+ This package contains Python bindings for the OpenCV (Open Computer Vision)
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: inception-movidius
+Architecture: all
+Version: 3
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 53080
+Filename: stretch/inception-movidius_3_all.deb
+Size: 48862082
+MD5sum: d53c179c175e3fb78288b0fa3200984f
+SHA1: e952c5f232ca2519ce99d5427ec0f92f88e104c1
+SHA256: d5a15caddc86bec8bcfe4ed2fdb19a62bfd1dab779fe7ad1e04431eed8c4b6b1
+SHA512: 8c1cf44ea01649e13f7318663d1b416634b94ff790c7762173a2e90b49199ec471cfdec9cf4a4d252c4a20f4e9e9270fdce6353d426b43cf90352a1baae8dbc7
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libopencv-imgcodecs3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 157
+Depends: libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), gdal-abi-2-1-2, libc6 (>= 2.11), libgcc1 (>= 1:3.5), libgdal20 (>= 2.0.1), libgdcm2.6, libilmbase12 (>= 2.2.0), libjpeg62-turbo (>= 1.3.1), libopencv-core3.2, libopenexr22, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5.2), libtbb2, libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), zlib1g (>= 1:1.1.4)
+Filename: stretch/libopencv-imgcodecs3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 76646
+MD5sum: 85fc5f1a6325c201f726e3588944d4c7
+SHA1: b5a5b5f746ecac9beb73e672c8205b9bc2fa650e
+SHA256: 0f38798338e22d35a138682c7b37227297dfcc5d2ef2975ceea21bfc85f08003
+SHA512: 8bfce089230bfe10966b5e4998726bc1a6303c542db923bdc26caa90be968bf70f248dd04e4ef0a5ed88e261a3fecfcdf1e879a920507217107b21b598a4b885
+Homepage: https://opencv.org
+Description: computer vision Image Codecs library
+ This package contains the OpenCV (Open Computer Vision) Image Codecs
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-objdetect3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 269
+Depends: libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-videoio3.2, libstdc++6 (>= 6), libtbb2
+Filename: stretch/libopencv-objdetect3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 136894
+MD5sum: 0382e01a0b3967edb4715ecbf3cb0b68
+SHA1: 6ed275fddc7e845c5dea777ec3f719a7caf93b99
+SHA256: 076db6202219aaef56f9617624617d9cad77f030957bab16e7d3b9bc2d7a28bc
+SHA512: 0c54d09670092086b3aba3d4edbca32010b992c9d0cf32113536cd08bca981a9d0b81d204c541d774cbd98dded602e95e61fca8b3d8147dbd8d26e0145030cf8
+Homepage: https://opencv.org
+Description: computer vision Object Detection library
+ This package contains the OpenCV (Open Computer Vision) Object Detection
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-videostab3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1100
+Depends: libopencv-videostab3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-videostab3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1060998
+MD5sum: 459a6f686d59e173547238bb242353f3
+SHA1: ad702c8fb683fde8a25fc1892f4efd716e3fdfc0
+SHA256: 85fb61e7303e89174fe71e13e4f51fd46d051ad3e0e6cb9173cc46131146df51
+SHA512: 9c592c00a7e03762f737b6bcffb195b2c7c4a89062a5453996c0f12fd9afebc246003751544fc70d1a8c76d6782967c636b75b6a5efdf7477ed30feaaae61c8a
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-videostab3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 62dd46d23cd925d44ce3238cc752308cc95c6848
+
+Package: darknet
+Architecture: armhf
+Version: 20171109-3
+Priority: optional
+Section: libs
+Source: darknet-nnpack
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 798
+Depends: libc6 (>= 2.17), libdarknet (>= 20171109-3)
+Filename: stretch/darknet_20171109-3_armhf.deb
+Size: 285362
+MD5sum: 57ba9ca07d1a55cb0060509121996926
+SHA1: 5f65e499e32ef0518fe9f34faa7fb7b5319ce0bd
+SHA256: 1c37d50e8773967b54d0bb2cc47566b8a18e935376cbd14dc5358c1d37f37b35
+SHA512: 5a57b7a9e339d067b161da979e966b6912906045b44524d179dfd208dc7bc7979061e89d3b6f8e774fb040304ad068734ad517c2c39bf5e0a8e5f335bd3506f0
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Description: Darknet: Open Source Neural Networks in C
+ Darknet is an open source neural network framework written in C and
+ CUDA. It is fast, easy to install, and supports CPU and GPU
+ computation.
+ .
+ This package is a patched version of binary with NNPACK speedup.
+
+Package: libopencv-photo3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 481
+Depends: libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-photo3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 178708
+MD5sum: e90c3a1ae71a6513e150f15fd46a700d
+SHA1: 41616f19ad815b93e35baa205dd72eed23ace734
+SHA256: f09ce071faa4a7311bccff6120e5019e4fbdd7bff9559408c64530d79703645d
+SHA512: 6bf6a5aab128d0893be348bd3136d48aa321e3332c5c50c59e8c83537fa92412d08c219c05b68e3eef8bbdddb5f70ce6c7f4e658e474196326cc7a133c0c5b6c
+Homepage: https://opencv.org
+Description: computer vision computational photography library
+ This package contains the OpenCV (Open Computer Vision) computational
+ photography runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-superres3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 606
+Depends: libopencv-superres3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-superres3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 575614
+MD5sum: 4181269d0b82a6582ef0cae2a1050849
+SHA1: d1f0f34231f355c2b9fea43d52cd5c727a024715
+SHA256: 7ced99a964c9c40d7c2ef62a8e78aa476260d084bb6085a0288cc712d9843728
+SHA512: a53ffc833773457a4c746d217da15e317c0627170fb217b3c3519409e3918094bbd85da78fdddb5a906cc2c12f1e8854d0c38774f3f32a1cd0b4269d98effa6b
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-superres3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: d30a996915c850e9e821e1ebec208b22facc73e8
+
+Package: tinyyolo-movidius
+Architecture: all
+Version: 1
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 88084
+Filename: stretch/tinyyolo-movidius_1_all.deb
+Size: 80516176
+MD5sum: 0c8a21a98900988b3fd3eff023e8ca3a
+SHA1: 5c0d5dd12f227ae5c423efc9d48dd40a67fe3946
+SHA256: 5fafbd0c1a0587fefc5bb8b2de80ff66e547d70cb259857f08128b004693e03c
+SHA512: 6985b9ee36f7e8b927efc1b4a3bd51393fda19df9c81480c813d9ca3be6c2ebc96a59292c09b8ef3512b94f50a96a6261b290c31d3eb095c14b7788b52683833
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libopencv-shape-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 388
+Depends: libopencv-shape3.2 (= 3.2.0+dfsg-4dt421), libopencv-video-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-shape-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 81470
+MD5sum: abbc83481b1fe82ce95620d197926757
+SHA1: fee645ce8eb8a3eece7496f76ea19fe5f98c929b
+SHA256: 6348b49d1b397de04533ee2267adf67259a93cb53e42e5b78aabfd06391871ba
+SHA512: 83ef6fc8d72adb5dd2739489ab5a9b8067973a72bec2def02dff948af999c4cb563e93b4f7aac17cd1a6b7f1369248eff71a81f0ae8f4eb77caf7814fc2d4426
+Homepage: https://opencv.org
+Description: development files for libopencv-shape3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) shape descriptors and
+ matchers library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: opencv-doc
+Architecture: all
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: doc
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 174252
+Depends: libjs-jquery, libjs-mathjax
+Conflicts: libopencv-doc
+Replaces: libopencv-doc
+Filename: stretch/opencv-doc_3.2.0+dfsg-4dt421_all.deb
+Size: 59837544
+MD5sum: e94ac042c63cc32b7d2aaacf6c44392d
+SHA1: 45956e2ac16ba33b4621291a3c3d71101925f831
+SHA256: 0b7abd3609fdfe910ec7f2412f4b74d0c048a9bd5eb74375d90eb1070ec6ade1
+SHA512: daf553c960937c49604534cea89c7acba0e23633b16fb3d04d42ed2e42bf021e5f530a89774abb15b14a2b38bd3c9bea371c72eb3625e8443caea502d602edc8
+Homepage: https://opencv.org
+Description: OpenCV documentation and examples
+ This package contains the OpenCV documentation and example programs.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-videoio3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 169
+Depends: libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421), libatk1.0-0 (>= 1.12.4), libavcodec57 (>= 7:3.2.9) | libavcodec-extra57 (>= 7:3.2.9), libavformat57 (>= 7:3.2.9), libavresample3 (>= 7:3.2.9), libavutil55 (>= 7:3.2.9), libc6 (>= 2.15), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdc1394-22, libgcc1 (>= 1:3.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgtk-3-0 (>= 3.0.0), libopencv-core3.2, libopencv-imgproc3.2, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 5.2), libswscale4 (>= 7:3.2.9), libtbb2
+Filename: stretch/libopencv-videoio3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 82398
+MD5sum: bf41f4eed3aaf28fff6f1ab9f199f5ba
+SHA1: 1c71e2ea84bb19a00bc6b7b76038b5c50da7e45f
+SHA256: 4aca27fc92002b131d8d7805a4e013be703851005f00799e1e3caed9275c32bc
+SHA512: 0395d7c493a698f482b372a91ac9a731e4ce7da9e676a2e1e68f1b6d034ec84fe3c9a03f779ae32385de860259ad5956a1a4777933e320482565a1f1acf3e10e
+Homepage: https://opencv.org
+Description: computer vision Video I/O library
+ This package contains the OpenCV (Open Computer Vision) Video I/O
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-core3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 5791
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-core3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 5532206
+MD5sum: 02edbeb19ee26e70db3613aa2fb64021
+SHA1: 75e7efb69cab9f1f80b3acbef1829f4fcf7b78d8
+SHA256: 053004ec9e460b6a4405925f74f3f19c4587fcf33cb038d0240b055a17ddaaf0
+SHA512: 583ed89aa7c7cb7e76157587e5d0cf79e4f38c8d9b7e927bae983edc3cd21b4f838fcce58d1572d73347d20ecfe63027f5b9323df2361bcf2a589f53b951a588
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-core3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: a98d5d6686f20432e3f32ac63ac3cfe2aa92a77b
+
+Package: libopencv-photo3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1735
+Depends: libopencv-photo3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-photo3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1656706
+MD5sum: 4d1db919236e94e01cfad3b264311262
+SHA1: f4599fb876d8a3599bbbab6b6bc191a9c34abbc7
+SHA256: 76d012a18249ea9d22ff03552d8ec325984a49e7637adac1f865ef62855d2f31
+SHA512: e318d89b8629fbc18ac7cb502ec886ae61854831835002a8c7f9c034be92fda36447df3bfe51972cab19245683c3fb89fbbf5f705c1f6076a37a9cfa5a0fe372
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-photo3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 2038f59d54da6f019c844e9fc20abc4a08aeab69
+
+Package: libopencv-viz3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1384
+Depends: libopencv-viz3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-viz3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1306682
+MD5sum: 9587c1d912f2d8244fd8bae33384042a
+SHA1: cd1de15844df8d522c20084fce32242e5fd694e5
+SHA256: c07e3d9a0910b418928a54ff9ee9ea346ab5f727a788cc2d8adda3084eebc1ee
+SHA512: dcc919164e4e16dce46236807e50ba09c6359692d4970985d9180785dd779adf12d66b4b501bc0a833e10e7f2dd264e5896b99d286060f4c99652fc6315b3a21
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-viz3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: a72c1882f2895aa38d1ef57ba9dbcd92f6f87cd1
+
+Package: libopencv-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 526
+Depends: libopencv-calib3d-dev (= 3.2.0+dfsg-4dt421), libopencv-contrib-dev (= 3.2.0+dfsg-4dt421), libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-features2d-dev (= 3.2.0+dfsg-4dt421), libopencv-flann-dev (= 3.2.0+dfsg-4dt421), libopencv-highgui-dev (= 3.2.0+dfsg-4dt421), libopencv-imgcodecs-dev (= 3.2.0+dfsg-4dt421), libopencv-imgproc-dev (= 3.2.0+dfsg-4dt421), libopencv-ml-dev (= 3.2.0+dfsg-4dt421), libopencv-objdetect-dev (= 3.2.0+dfsg-4dt421), libopencv-photo-dev (= 3.2.0+dfsg-4dt421), libopencv-shape-dev (= 3.2.0+dfsg-4dt421), libopencv-stitching-dev (= 3.2.0+dfsg-4dt421), libopencv-superres-dev (= 3.2.0+dfsg-4dt421), libopencv-ts-dev (= 3.2.0+dfsg-4dt421), libopencv-video-dev (= 3.2.0+dfsg-4dt421), libopencv-videoio-dev (= 3.2.0+dfsg-4dt421), libopencv-videostab-dev (= 3.2.0+dfsg-4dt421), libopencv-viz-dev (= 3.2.0+dfsg-4dt421), libopencv3.2-java (= 3.2.0+dfsg-4dt421), pkg-config, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-calib3d3.2, libopencv-contrib3.2, libopencv-core3.2, libopencv-features2d3.2, libopencv-flann3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-ml3.2, libopencv-objdetect3.2, libopencv-videoio3.2, libstdc++6 (>= 5.2), libtbb2
+Recommends: opencv-data
+Suggests: opencv-doc
+Conflicts: libcv-dev, libcvaux-dev, libhighgui-dev
+Breaks: libopencv-core-dev (<= 2.3.1-8)
+Replaces: libcv-dev, libcvaux-dev, libhighgui-dev
+Filename: stretch/libopencv-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 216380
+MD5sum: 4ef3bb3e1f1e4f0d28e501df2a7c2a7f
+SHA1: b1fc811b0e0f1b99859652cf2f562aeffe8ffe6b
+SHA256: a4b1e16b2aae0f45963f931f3ec4171eab9357407a0431c77b3e4a4aeb25cac3
+SHA512: f91a6354d768faf2375d3a1b8164fe98f67047d3baeb5f712a936d1dfcfab26ab10b23b9456669a1126132cf11e9b1056384372e37ffa5fbda1c219eaa22d32b
+Homepage: https://opencv.org
+Description: development files for opencv
+ This is a metapackage providing development package necessary for
+ development of OpenCV (Open Computer Vision).
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-objdetect-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 626
+Depends: libopencv-highgui-dev (= 3.2.0+dfsg-4dt421), libopencv-ml-dev (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-objdetect-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 173276
+MD5sum: dfab17aa4d2f41a67c70c0341411716e
+SHA1: b52631745a28ae8fc6e0de9a8d265205759c9d2a
+SHA256: 9549cf9ae5556bf660f97ea36fe1c9b70c24ef61e3739baa6dc762dce4cb4502
+SHA512: d701f15f003c0c043e9bf4bb1e6a3b87649fe09a78b81ad3a3565e1cb00785c127201369229e71113fea8032221ef14960039cefe0960eda53a53babf87e5560
+Homepage: https://opencv.org
+Description: development files for libopencv-objdetect3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Object Detection library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-stitching-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1008
+Depends: libopencv-calib3d-dev (= 3.2.0+dfsg-4dt421), libopencv-objdetect-dev (= 3.2.0+dfsg-4dt421), libopencv-stitching3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-stitching-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 216272
+MD5sum: 56ebd376cdb125959b3fca02dc3ba831
+SHA1: 7257b5753424f123bb9f1600c66412e0e1082e7e
+SHA256: 07e49613d77af83885f0fbcfb0cb9e449f622994dcbbbefe8ef8898cabcaeebe
+SHA512: baaae7ff7a8cbeec2b8844063d3b75f512dc713742b1a5826f2422f131d70379082dae02fdb2b9c7e811801f3751fd6d559a416d00dc1bdd2073f9d2e77706cc
+Homepage: https://opencv.org
+Description: development files for libopencv-stitching3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) image stitching library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-ts-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1288
+Depends: libopencv-core-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-ts-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 287084
+MD5sum: 9dc45f70881d94b838dd97423d8f790d
+SHA1: 62922e2b5456c516a82ad9a8bef0bff09dfcd5f6
+SHA256: 6a1e7cc3ddeca3aa80eb26d30d85b0779deb6f3392926fd1a5e8ffd79087d835
+SHA512: 74f6cfad1d4decb24d2f9e16d9649fd4ba16e701c083f039489ff88e030e7abb3b852a8380d113605e7e2658eee4605bb650e2a3fd682ab1f1a2017a0fe594d4
+Homepage: https://opencv.org
+Description: development files for TS library of OpenCV (Open Computer Vision)
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) TS library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-video3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 273
+Depends: libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-video3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 118212
+MD5sum: 039c1a0ba2394cbc2467b952c0904844
+SHA1: 8e5bc77e81b2f2924596519091f3523099eaa0bf
+SHA256: 527ede4be1f383a9e735b39e06b1c553e4ffc6fae32dee2cd18d66563595d7be
+SHA512: d3acf1c50c410f81c7dc84247c63f39f0cc53175a7fe9f751fca0e8ad402f78a781521a7a13b616ec65f71b6d3a9e29a80eb9f9bab1f1a8655188d050ba9f1ef
+Homepage: https://opencv.org
+Description: computer vision Video analysis library
+ This package contains the OpenCV (Open Computer Vision) Video analysis
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: tinyyolococo
+Architecture: all
+Version: 20170816
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 63202
+Filename: stretch/tinyyolococo_20170816_all.deb
+Size: 59419418
+MD5sum: 2e63da3d6bd3ae2651c36e78b17492cd
+SHA1: 925619a00d75dd71dd9cb6cf819193aefa8a63b4
+SHA256: 28dcf33b65658baa7e178afc6fc38fb8c5fd0b7d2ae22e954d8db6c2373e33ef
+SHA512: 0cce2a73e3ebf94ae3396bbc718f05672b8d4770ee9af8693f816257ba0442db501faed2ef9674c905b673befad0d79dd50493ccd6a0cf26f85f94256a976571
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libdarknet
+Architecture: armhf
+Version: 20171109-3
+Priority: optional
+Section: libs
+Source: darknet-nnpack
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 722
+Depends: libc6 (>= 2.17)
+Filename: stretch/libdarknet_20171109-3_armhf.deb
+Size: 252832
+MD5sum: f49fee63942c689b505ae2092007c869
+SHA1: e54615f1d756c8f894190d0862fc19189cbb1fb4
+SHA256: 8cf728b9115cced749f35a509e17e4ba552b1791e7a67379ba0e6befa31de860
+SHA512: d67bfb5539a8071d256719d27fad4266e250d8900629da7c99e97b5814b37b7415da5335e473350b9b857ce9e1287c3c22f9abc01bc1b3984d01a01ddc9a2749
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Description: Darknet: Open Source Neural Networks in C
+ Darknet is an open source neural network framework written in C and
+ CUDA. It is fast, easy to install, and supports CPU and GPU
+ computation.
+ .
+ This package is a patched version of library with NNPACK speedup.
+
+Package: libopencv-ml3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 437
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libtbb2
+Filename: stretch/libopencv-ml3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 209520
+MD5sum: 84ff79f1df5a1dbae0e6673e45d08894
+SHA1: f29691518ef37b71fb07190a8aaaea6a5c28d360
+SHA256: 118da5267fb264c3173f40a3bc8b612c1bbba32ec2d44543f8f59967cf137826
+SHA512: 5f3aa9aa6a8e59ea8cde70e70e036c78ea6ae784c64533518b252378dacf2a920991d78a016e19fd77fe86643bd72e398ac1042bb17e3251f19f5e4af667c0cc
+Homepage: https://opencv.org
+Description: computer vision Machine Learning library
+ This package contains the OpenCV (Open Computer Vision) Machine Learning
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv3.2-java
+Architecture: all
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: java
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 428
+Depends: libopencv3.2-jni (>= 3.2.0+dfsg-4dt421)
+Breaks: libopencv2.4-java
+Replaces: libopencv2.4-java
+Filename: stretch/libopencv3.2-java_3.2.0+dfsg-4dt421_all.deb
+Size: 397126
+MD5sum: fa53009ca758bf6b63465e5c241c17ec
+SHA1: be9971190263bdfe9ce3e96e26f00e501a86744f
+SHA256: 558f1b924418368327906366e3477a3b7e201dae9de7441001a2dbc644c87942
+SHA512: aeb2454f94ac3f89002520264c572cb03838ef70e18f112f89aaf054f28da0595993425cd6d3cad210396e69004364a8b1ebc4c9b309099b628637431e94916f
+Homepage: https://opencv.org
+Description: Java bindings for the computer vision library
+ This package contains Java bindings for the OpenCV (Open Computer Vision)
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-stitching3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2060
+Depends: libopencv-stitching3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-stitching3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2004630
+MD5sum: 7b7ef765d95a5cbcb0b255a5979520aa
+SHA1: 7c280c01028b39212c76e96c9fed3cfe410f5122
+SHA256: 4d91d5ffd9e6d29bcde39d8098d7433779a5c60c17ba65f7f221711a027610fa
+SHA512: 4aefa80dd9fa833c53f3ed1a11517579a1193d79fd5468398f71e1a6011cae1450e77149c7a2108f8f2369c408585e27f3e31f966dbf945d447a954e17ffc0f1
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-stitching3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 0e3c436988e26d0d3ef65b98a6ce4640748ae713
+
+Package: python3-opencv
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: python
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1740
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421), libopencv-flann3.2 (= 3.2.0+dfsg-4dt421), libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421), libopencv-shape3.2 (= 3.2.0+dfsg-4dt421), libopencv-stitching3.2 (= 3.2.0+dfsg-4dt421), libopencv-superres3.2 (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421), libopencv-videostab3.2 (= 3.2.0+dfsg-4dt421), libopencv-viz3.2 (= 3.2.0+dfsg-4dt421), python3 (<< 3.6), python3 (>= 3.5~), python3-numpy (>= 1:1.10.0~b1), python3-numpy-abi9, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-contrib3.2, libopencv-core3.2, libstdc++6 (>= 5.2)
+Filename: stretch/python3-opencv_3.2.0+dfsg-4dt421_armhf.deb
+Size: 538476
+MD5sum: ddc1a382d34fbb886d3d877a1d0b1f2c
+SHA1: 1fb5faed7ae86d467fd3f96b42708db0c613faed
+SHA256: 81bf9a446ab0f3f5e032cde5bb0389813d60233410f4d22d7ac80be6f295c81b
+SHA512: e10e8e50964794aadb109e76c86c6869bf866cc349062591857d96f6da6a48ccbb84ff1db47e42113c50d6d52b32ed6f07941a539d04907530ea45eb9f090428
+Homepage: https://opencv.org
+Description: Python 3 bindings for the computer vision library
+ This package contains Python 3 bindings for the OpenCV (Open Computer Vision)
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: python-mvnc
+Architecture: armhf
+Version: 1.12.00.01-1
+Priority: optional
+Section: python
+Source: mvnc
+Maintainer: Bofu Chen <bofu@dt42.io>
+Installed-Size: 29
+Depends: ncsdk
+Filename: stretch/python-mvnc_1.12.00.01-1_armhf.deb
+Size: 5420
+MD5sum: 26338392f0c4fcd61215007718f48976
+SHA1: 230f4a8623ba860163af3cd12c453e88658a1651
+SHA256: 248f9d709c2c7f3e43a7f985448357cb8100d19127fe68baf4ca056dd8c65398
+SHA512: 5700cb39f3f3038575d1d2871ed0b24bd9d239b7c3801cc98c85fd2db4143295c520c1f4978c836eac66fb2b0d43175154b6a4ab4defc292f5f9b6401ca07e51
+Homepage: https://github.com/movidius/ncsdk
+Description: Intel Movidius Neural Compute SDK
+ This Intel Movidius Neural Compute software developer kit (NCSDK) is
+ provided for users of the Intel Movidius Neural Compute Stick (Intel
+ Movidius NCS). It includes software tools, an API, and examples, so
+ developers can create software that takes advantage of the accelerated
+ neural network capability provided by the Intel Movidius NCS hardware.
+ .
+ This package is Python API wrapper.
+
+Package: libopencv-calib3d-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1801
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-features2d-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-calib3d-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 494136
+MD5sum: 691d7a08bef8d20333503ca58803aad8
+SHA1: 5c7470fb64410ff6432ed9cb46961b8d22e68b79
+SHA256: 662db2a1a1c5f5f6a88fe1c48c02681381fe1730055388db7b2d355d21486726
+SHA512: ea4504a52a127ab0a21492edc8f6182d2194ea2ebae06e3f361ce2f4899282e73d17e440a1a7584fd6c555d7edeb15bdf986fce104c42ab5ef1bef5418896ecf
+Homepage: https://opencv.org
+Description: development files for libopencv-calib3d3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Camera Calibration library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-imgcodecs3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1436
+Depends: libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-imgcodecs3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1396100
+MD5sum: 53838a5edbe59cb17135e3daa6a13f7d
+SHA1: 5164ef3c8b5ebb774a4add65bab48551a8d4852e
+SHA256: 3c9b5c6a2e89e3250860b25ac42d6b6349b2c628b5ee249a30b5c286e93bdb74
+SHA512: 80402955057a834db0c4b564bbdbdcbbcb99895db4fd188dfae654f086abe63c662ce4fee019c126b7fc4164fb6dbe5463a5a289d4a1898e454e6cd4e7cdab8b
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-imgcodecs3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 631360be600c62db8fdb6ba33fc005086f707961
+
+Package: python-opencv-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 3217
+Depends: python-opencv (= 3.2.0+dfsg-4dt421)
+Filename: stretch/python-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2869688
+MD5sum: a100e24a84650578a363649608d86bc5
+SHA1: 7bd7472a990286bcdec8893bb03332bb87e1dc2e
+SHA256: 37a957fd78c3e76506e6aa4065c5fdbf1ac061a7f9577cb08139e15ff4aca562
+SHA512: 7dd46dc7fc04b763e320aab4856c7d410cb4ac43f110e1f73fa4044c3b820dca07df7f458b62f85141d14dec4e7be44260764ae2f019ead629ef214d90da7d5d
+Homepage: https://opencv.org
+Description: Debug symbols for python-opencv
+Auto-Built-Package: debug-symbols
+Build-Ids: 418a4a9c01edeeca7461de870f05a8b4e59f1d6e
+
+Package: libopencv-shape3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-imgproc3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-shape3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 60890
+MD5sum: 0c4b8f46b3294a1a15fdf6b97ee9076e
+SHA1: 47951d9d2f9399f7bd4506bf1f0404011d3b353c
+SHA256: 7ee4a58cb276cf0460f114d050ffadbce908672904d0567264f795f798aa3fc4
+SHA512: be730a5eb4e0352871833c1224f548f30fc44df30c6ff0d443cb6cef5c93f8f5def0163fbe9be6ec78370a3befa78a21b35ac18a2a1fd30b590cee64c814eed5
+Homepage: https://opencv.org
+Description: computer vision shape descriptors and matchers library
+ This package contains the OpenCV (Open Computer Vision) shape descriptors
+ and matchers runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-highgui3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 208
+Depends: libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-highgui3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 187604
+MD5sum: ad0b01d4cf26f5160efda19066133e9f
+SHA1: 607edfe36e633865f3195c29df7d090e0bfa04d3
+SHA256: 5698272367581121a6f2fbb6906b9ebb88f090cb804060c9184522b250c5d8bd
+SHA512: a66e02a53b5b5ab9841d86398f88ae4aca365daa7fac2e1ff218aa26215a357d9e44e661ff1ed1e01a3f9c990245bc5f24dda93ec29926ba0cc33b1298cce609
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-highgui3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: dd3a33f40d03cbf7c8e27b1e85931ffee655b236
+
+Package: libopencv-ml-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1254
+Depends: libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-ml-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 294516
+MD5sum: cfa1c40d9c1d0c9c0ebf8be6e221bba5
+SHA1: 3016fba1473ca5b908c572d481fd27ee6553adae
+SHA256: 3ba3cdd2efb67ead072180933eb76d42e3524eb51f9cb49dd4b60c44e34b9ede
+SHA512: de2d78c225c20913a0ab6a7d37219780528943ef7fde4397f63163211d0461a1121adec98717c51fbc03ef929f8c670370f48375942a48b76afb1cb5d5c6b71e
+Homepage: https://opencv.org
+Description: development files for libopencv-ml3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Machine Learning library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-core-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 5725
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libtbb-dev, zlib1g-dev
+Filename: stretch/libopencv-core-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1123822
+MD5sum: dcb4dec3e2415be51f5457c97dc2de40
+SHA1: c008e57ba3a92aaec0ae7cee7e18442329716468
+SHA256: 2350f867e74b13cac351c5d22b225ecd132f07715354b475082ebbd1f2cf0f29
+SHA512: 83389459e621f00763c1edad4f025259304f9f35809539f225dd269d3b0bd95ee3eaad5ad7f4a8fb8f1b8ae61c36edc578981a58e2a0857f22f958416aae97ad
+Homepage: https://opencv.org
+Description: development files for libopencv-core3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) core.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-highgui3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdc1394-22, libgcc1 (>= 1:3.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgtk-3-0 (>= 3.0.0), libopencv-core3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.3.0), libtbb2
+Filename: stretch/libopencv-highgui3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 29454
+MD5sum: 8f37b1bcac36f041f84d50e7971e3188
+SHA1: 7be70e9af98a601dbd5dd285ee1165d92172c89e
+SHA256: dafc283d68eb08723e21913c49395d55859f7b276cf516e648bafe5941ae984a
+SHA512: cacc4794a17101ea73ef131cb414ff9a1122261942707b46610e3859d8d73392c01313a044613ec09f8e6fe561f4cd319d99183c1e7623b00301c50b77d774f9
+Homepage: https://opencv.org
+Description: computer vision High-level GUI and Media I/O library
+ This package contains the OpenCV (Open Computer Vision) High-level GUI
+ and Media I/O runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: python3-mvnc
+Architecture: armhf
+Version: 1.12.00.01-1
+Priority: optional
+Section: python
+Source: mvnc
+Maintainer: Bofu Chen <bofu@dt42.io>
+Installed-Size: 29
+Depends: ncsdk
+Filename: stretch/python3-mvnc_1.12.00.01-1_armhf.deb
+Size: 5498
+MD5sum: 1fa70175b4c69ce9185c15153c9047e9
+SHA1: ecc0ef3f50a0415ba1c8c536ac4ad92569f0bc67
+SHA256: dad8385abbf1d27ae0e00e88f97251f30454488d2b1057761cd98c21989ede8c
+SHA512: ffd706713bfb87411c1cc24305d90baa362639b7c006779208a214673829f2f325c80843bc22bf32ea6a740dce24b55c49afc130289e04a76cb156ac2eb2771c
+Homepage: https://github.com/movidius/ncsdk
+Description: Intel Movidius Neural Compute SDK
+ This Intel Movidius Neural Compute software developer kit (NCSDK) is
+ provided for users of the Intel Movidius Neural Compute Stick (Intel
+ Movidius NCS). It includes software tools, an API, and examples, so
+ developers can create software that takes advantage of the accelerated
+ neural network capability provided by the Intel Movidius NCS hardware.
+ .
+ This package is Python API wrapper.
+
+Package: libopencv-features2d3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2369
+Depends: libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-features2d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2317426
+MD5sum: d27b55069e236124dd61c0034fe89f34
+SHA1: 7e41ce2328cc50df71a8936fc16122118cc43586
+SHA256: 758ab917c0c74da210061d120233ab501d151202dbb5cac404552c9b8e264586
+SHA512: fdf986c3939a916fed5f0382a45e9fc2ea66010e42edfc95cc1e2adcc6f5461f9501cac6d74192079fdd50b43a87f692861577fc0042a0f3f59eecdb09540766
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-features2d3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: ef832cbc1bd914672bc67ae63a6caae7905cf0dd
+
+Package: libopencv-calib3d3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 853
+Depends: libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:4.0), libopencv-core3.2, libopencv-flann3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-ml3.2, libopencv-videoio3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-calib3d3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 391626
+MD5sum: 7b070157e6996dec080684e6f3a2764f
+SHA1: 6c1f47f884b6946b9bf88e5896ffa5c2923873c5
+SHA256: d602ea75795fce3610969faa484cd26745efa4f2083d48f250ae9201edba681c
+SHA512: cb105ef790d740e627409077522fc2c7b5dfbd116652a5daf8cc96f746d4b3fadcbb80b01fa8f464bfd3e508dece584ed8c103975a9f4c0e12b805f69dc8560f
+Homepage: https://opencv.org
+Description: computer vision Camera Calibration library
+ This package contains the OpenCV (Open Computer Vision) Camera Calibration
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-calib3d3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 4198
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-calib3d3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 4157112
+MD5sum: 73b90b6cb9ea3beb52aab29e263cb493
+SHA1: 8373ebd74f7deb43fbc6cc0f11cb170fc5264e45
+SHA256: 28c43358c33a4ae492fa3b875bba296fecc751a13b17e299231adea83f19d1e7
+SHA512: d8328dda300579c14c67751d19ce98fe7dd31bfd341136babd427e8cac035e842aa967682e1993234d3aff3c5b70c90d167a46ae6c95bb2dde03d5c08de13d3f
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-calib3d3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 93413d0f76e8dd5658cb47a4952faccbd83d4af4
+
+Package: libopencv-dev-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 2351
+Depends: libopencv-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-dev-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2249122
+MD5sum: 664c72364bbdcc40212d4d8d436802ec
+SHA1: 534b664a1a47282043f85368a8755da1c3e5bd32
+SHA256: b055a4a40d3f03039b99f1f8ceaf1a9575ddb2e93f88d1ab4dac5403737d6ec9
+SHA512: c062f3c2988f63f631d481e3c6a35945663f5963c4e4d03d4614f3fc3dbfd340fa7bdcf31c18f224a72d8d9f20d11b50d723fd01be9d5eca1743a5f3ce2a6399
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-dev
+Auto-Built-Package: debug-symbols
+Build-Ids: 579d5be2598acdbbc233f702e3a9a54628074d61 7676e6eedf02f2261f89462876c8a4456abd3b71 8abadcddc9cf667c2d9742f775900a8dfd1cd746 8d15020d17295851bf273dbcb86fa150af00dcf6 bfe2afe340d2505653b3342f8cad381e0f2eabaf dbc47582c5782db50f76660ab78968e2bf25f508 dc8e125e8c4205d1307308422264434d076de4a1
+
+Package: libopencv-videoio3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 851
+Depends: libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-videoio3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 811046
+MD5sum: a8ec1a2c891521e238db4ad7ee321c8e
+SHA1: 1ce89e418c1f941947c55209b4d2afd8a8d627ef
+SHA256: 964c5ff1f970bca6cf7443073cb4d2e945ef421876966eed304c3059894cc38d
+SHA512: e8fee014ddbadbf9e04f66ed2a529206fead7734d49461aa49e6f7ca7f18d17864f5af96feef6ea9fda905932b9aa191c33cc0eb7c45da1c3f23cc0b848f5cf8
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-videoio3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 96e564d9ae0930fb528f9fc6f2147d9f4fa70d82
+
+Package: libopencv-photo-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1130
+Depends: libopencv-imgproc-dev (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-photo-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 227548
+MD5sum: 6522b94282f1d6e1e81ac1a3b193cb76
+SHA1: 2b082e56d33e692d2b07920943e80ea6bf8f7e1f
+SHA256: a160422d23996f003a7e41dc2f09b78e835f99d58f603f0617dfc7a5241ded37
+SHA512: 71c5fa702b0dc64ae9be3066eacb3671bd7dff45f9a761dbc0a49b2bdcd343a6026aec6a9d04da27ee5648a0d70e225709106e31d924eb04e8a28b922886ca9c
+Homepage: https://opencv.org
+Description: development files for libopencv-photo3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) computational photography
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-flann3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 914
+Depends: libopencv-flann3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-flann3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 812802
+MD5sum: ad0115052f9ce2d8a8658e5a3d104afe
+SHA1: 3f36d0268270f2972e98d0dd44789134323221ac
+SHA256: ad1c7c4e609df54a4e4346e9b95cf37c4b03e5b82088578c28f3e9facc7cc0e7
+SHA512: c4317578d076525eb469d4c3500075c84b9db9111f1ac1972b280c99b96b98e7ff59e801be7003277e3297af2779433f33d2db6d41b33e3a06c3cb1fbc9db2b3
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-flann3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 59520e3b29ca789a4b6ee55644d2a14562f2b8e0
+
+Package: libopencv-contrib-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 10219
+Depends: libopencv-calib3d-dev (= 3.2.0+dfsg-4dt421), libopencv-contrib3.2 (= 3.2.0+dfsg-4dt421), libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-features2d-dev (= 3.2.0+dfsg-4dt421), libopencv-flann-dev (= 3.2.0+dfsg-4dt421), libopencv-highgui-dev (= 3.2.0+dfsg-4dt421), libopencv-imgcodecs-dev (= 3.2.0+dfsg-4dt421), libopencv-imgproc-dev (= 3.2.0+dfsg-4dt421), libopencv-ml-dev (= 3.2.0+dfsg-4dt421), libopencv-objdetect-dev (= 3.2.0+dfsg-4dt421), libopencv-photo-dev (= 3.2.0+dfsg-4dt421), libopencv-shape-dev (= 3.2.0+dfsg-4dt421), libopencv-stitching-dev (= 3.2.0+dfsg-4dt421), libopencv-superres-dev (= 3.2.0+dfsg-4dt421), libopencv-video-dev (= 3.2.0+dfsg-4dt421), libopencv-videoio-dev (= 3.2.0+dfsg-4dt421), libopencv-videostab-dev (= 3.2.0+dfsg-4dt421), libopencv-viz-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-contrib-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1891314
+MD5sum: 84f3011e72a35ada260d35eb33659f2a
+SHA1: d7562f25e5ae57941fe7cb8d310162781e11027a
+SHA256: be28421fcb090f07cc104b9687601c24341ace6efc2e2c264bb3464ae096ad10
+SHA512: bcddf9fd883d9da5b08d45d70a5d72a17690fe6f9bdab36fd2c5bee652f0a1accf36d417aa17f0e5b0154caa12071f15bcf5a138b3dab7158d53f39762fd67fa
+Homepage: https://opencv.org
+Description: development files for libopencv-contrib3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) contrib library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-stitching3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 345
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-features2d3.2, libopencv-flann3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-ml3.2, libopencv-videoio3.2, libstdc++6 (>= 5.2), libtbb2
+Filename: stretch/libopencv-stitching3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 158002
+MD5sum: a721619d008dbf079ecccbc2bf2ade55
+SHA1: a44ce8bd3cbad498cde1ac89ff189c4bd07270b7
+SHA256: 83ade6c5e6b844c28c7b753eb66965074b9aa0a31cb3850f97d81f6293cebec8
+SHA512: 799e9659455f79047f906878d38d214b10f63518015604a608fcb7db605d2d66b81cb893078e70c1d7ff3e70d201d9f3f99e0f3ebb58dec4ea6f02fa90b47ba5
+Homepage: https://opencv.org
+Description: computer vision image stitching library
+ This package contains the OpenCV (Open Computer Vision) image stitching
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-core3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1506
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libtbb2, zlib1g (>= 1:1.1.4)
+Filename: stretch/libopencv-core3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 642690
+MD5sum: c63bb6c8cd1fe1535f9440d068efbf7a
+SHA1: a9f9c14f7682ec5ca5c046ee16960055b1a25628
+SHA256: 0a7f6fef316adc0284ed23f4a1ffa82e3837d83e1e932bd5582adc995ddc3d83
+SHA512: a00f4b8fcac6e2360ace36dda9126608fd5d283bfcee05b43503faf25cf6dde95914b5cd39e4ae86a28a581af108156bf859c2ec22c647fa87538bbf3d795a9e
+Homepage: https://opencv.org
+Description: computer vision core library
+ This package contains the OpenCV (Open Computer Vision) core runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-highgui-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 159
+Depends: libavcodec-dev (>= 0.svn20080206), libavformat-dev, libavresample-dev, libdc1394-22-dev, libgphoto2-dev, libjpeg-dev, libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-videoio-dev (= 3.2.0+dfsg-4dt421), libopenexr-dev (>= 1.4.0), libpng-dev, libraw1394-dev, libswscale-dev, libtiff-dev
+Filename: stretch/libopencv-highgui-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 43942
+MD5sum: 1ef1638417167763764331aac538df78
+SHA1: 64c8df809f1499dc36624bd9bce147f5941a23d3
+SHA256: cbae2fd5bc970d23ef5304c69a064c0ebc71cadf1049f05683cb64ba4655a9de
+SHA512: 6ef8faddbe1e9eb03ec704787d6971c8be4f7b4bf7f573c3882f5a54e4979f0f3a42982754e6e4aa84d22aeb8f8b2809062be41cfc9ca83ee5ee7c9fa6604987
+Homepage: https://opencv.org
+Description: development files for libopencv-highgui3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) High-level GUI and
+ Media I/O library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-videostab3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 225
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-features2d3.2, libopencv-flann3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-ml3.2, libopencv-videoio3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-videostab3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 95966
+MD5sum: ceefd9d11ee17e2d20de63db17750f3b
+SHA1: 8148d05e75c66338275af3a7bf58109d66d617dc
+SHA256: 96b4557c3015b4daa9817df61f4f6baf72c03749029bffd9c816b9b971be2a07
+SHA512: a2104f71b9490bf4d922ca2a6647af026712f35771b5d29c3c81cf946ccdf9219d87e345988f190624aaa0c2adcd95b45ca53baa77deb74093e0897465bc2440
+Homepage: https://opencv.org
+Description: computer vision video stabilization library
+ This package contains the OpenCV (Open Computer Vision) video stabilization
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-video-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 594
+Depends: libopencv-imgproc-dev (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-video-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 154344
+MD5sum: 776137ea7f52c52da2eca7cb0d53ab7b
+SHA1: 69040698cb7144d5ca735c19f6a2fea41274ca71
+SHA256: 8f416aef7b9d02590717e120a2f39f33e99b58852114352ec70b3667985b5c1d
+SHA512: 98780d211397cdb06d0e6b8bd0a5d39faefcc626a3fc8cc6b80e98adefaf3ed282cc3afec45663d0e15824f0ccbe8319baf2b073e3852228cd17688bb7372011
+Homepage: https://opencv.org
+Description: development files for libopencv-video3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Video analysis library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-imgcodecs-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 664
+Depends: libgdcm2-dev, libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgproc-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-imgcodecs-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 124968
+MD5sum: e90cdf063e26b86790888950402c893f
+SHA1: 57adabdd6ec277188c5c67891620351cf47dca2c
+SHA256: 02860b64dbd85a117a53a07697f227e7a799d4fe68a79a9e713bafb5c31f7448
+SHA512: e7452edc5e969f16def3c95302cbdcb8e3fe583a9936920a2d60037c1e7bd5276c528814479ac6ddc7e557700cdcfdf8d85b0ef10a038726ead2303081593f10
+Homepage: https://opencv.org
+Description: development files for libopencv-imgcodecs3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Image Codecs library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libdarknet-dbgsym
+Architecture: armhf
+Version: 20171109-3
+Priority: extra
+Section: debug
+Source: darknet-nnpack
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 62
+Depends: libdarknet (= 20171109-3)
+Filename: stretch/libdarknet-dbgsym_20171109-3_armhf.deb
+Size: 15428
+MD5sum: a47a069f5e88313ce11901ee4698f2b4
+SHA1: 19d9a6eea9782a323703b4d3ee4a40f1fb9de7ea
+SHA256: c2067be60de643be89f1da5de840251307db0b5e8fc4e9138423ce904943de04
+SHA512: 8a5636577197f6a576d6a2f7575eb0a859f820852f2816d919220804581f0692edd6481c26488006fe64a4657fcf39ddd4e7cff7a107e5ffb798cd8e6ccf2c63
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Description: Debug symbols for libdarknet
+Auto-Built-Package: debug-symbols
+Build-Ids: b3ffeea4a06b1b5e52d58d2c33b01d36148e1ed5
+
+Package: libopencv3.2-jni
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: devel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 648
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-contrib3.2, libopencv-core3.2, libopencv-features2d3.2, libopencv-flann3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-videoio3.2, libopencv-viz3.2, libstdc++6 (>= 5.2), libtbb2
+Filename: stretch/libopencv3.2-jni_3.2.0+dfsg-4dt421_armhf.deb
+Size: 184154
+MD5sum: 55a0faff9cb9c170e180e1cadffb143d
+SHA1: 1c5ec6e3c287f9cb6636428d73f59f328e3e944b
+SHA256: 587bccd370ad046e0a12fb61ba818b56a8fed9fcb072fcc8e934d4c339262a38
+SHA512: c21f314c58250eef7b352c172a79a20d6e7e8cf01ab7fc86cb0cf97f44706f72501ed76073b65d13cd02d9fe8530693b3dada72c63a967efa7c47162ae6ea4ab
+Homepage: https://opencv.org
+Description: Java jni library for the computer vision library
+ This package contains Java jni library for the OpenCV (Open Computer Vision)
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: mobilenet-ssd-movidius
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 11331
+Filename: stretch/mobilenet-ssd-movidius_1.0.0_all.deb
+Size: 10304498
+MD5sum: f7bb6981d4c3693d0ec8f8ac055d31dd
+SHA1: 59ae2be8c95778d194b349e5501feb7de1a524cf
+SHA256: f5eeb4d3cf772006466cadc606cfd75aab5b94fd96dcc2754654c17194db5693
+SHA512: 4c3a4ac4ea31df0945316cbb628ff6d0a6417e10999b0ae3af861bd6a2fd173e24f528dcb2c8cdeef5b3485f8c1755efb9474796a2e90151aeda635713f86815
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libopencv-imgproc3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1854
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-imgproc3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 716438
+MD5sum: 81bcf5106c52849dcf3a84e46ee8a01e
+SHA1: c9a10e59cbc0277a254935cfc93cee42b79703aa
+SHA256: f987c7a6fde7cf36a168c806fe5b8ab8c48c943620a0c5a70f06f871f1946592
+SHA512: 42e5017591083f00fe78b439b46cf72d355e2dc29dd511a6adfb30e18cdee888a2c28891db2037dce346cfc7aa3c2f42399e7cdff3b69835a3554184ed666dc2
+Homepage: https://opencv.org
+Description: computer vision Image Processing library
+ This package contains the OpenCV (Open Computer Vision) Image Processing
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: ncsdk
+Architecture: armhf
+Version: 1.12.00.01-1
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen <bofu@dt42.io>
+Installed-Size: 1251
+Filename: stretch/ncsdk_1.12.00.01-1_armhf.deb
+Size: 354736
+MD5sum: 8426cc883a90a337afb3d1dc730ff622
+SHA1: 53dc9e18430b4849e6e19d6ff02fc70fe87412ad
+SHA256: c4ad279d4a6a2c2ddf9f504d6e8465c6810415b3d04ad58b3b0def4699aab9ce
+SHA512: a867cb5af43d74861e67ec63e845cd350c1f2c2203539c0e1fcef2646e938b4303e5a545ddb4eb4c52f4ac67cfa8b339b64d0e108b9320d632230cb21005e004
+Homepage: https://github.com/movidius/ncsdk
+Description: Software Development Kit for the Neural Compute Stick
+ This Intel Movidius Neural Compute software developer kit (NCSDK) is
+ provided for users of the Intel Movidius Neural Compute Stick (Intel
+ Movidius NCS). It includes software tools, an API, and examples, so
+ developers can create software that takes advantage of the accelerated
+ neural network capability provided by the Intel Movidius NCS hardware.
+
+Package: libopencv-viz-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 7283
+Depends: libopencv-core-dev (= 3.2.0+dfsg-4dt421), libopencv-viz3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-viz-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1396124
+MD5sum: 28853b5f32e63d2e4ba181c9df20c36a
+SHA1: f57330fa63f333fd74909a8566b94562794ca28c
+SHA256: e5404c6630ef5db6c71abf841d8ee78db6c75deb606e9e697229065884061935
+SHA512: 7d8082ffee1b06fff5d16a1c6f2aea110fa71e7d7687934963fc8fac84717902ffe656e863c5197d329b9afd52f0598e185a61952ffb1cdfab0ccd843d09eec4
+Homepage: https://opencv.org
+Description: development files for libopencv-viz3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) 3D data visualization
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-flann3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 213
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libtbb2
+Filename: stretch/libopencv-flann3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 86406
+MD5sum: 0e62d0712001712f13a8afbbd3b1e813
+SHA1: 5f23794fa2b9d3a6424281449be0d7e345722aab
+SHA256: b2e79377da7f3a31bff6379079a16622b2566b22444fb4c865bc86fd1c311b40
+SHA512: 92941159372aa1636c1f786569152fc40f0cdf38e4b03d5c533fe27cac512e5b271369586d7253a7abbeb259d5c25945d3697dd870dfe5af938ee077c8b68beb
+Homepage: https://opencv.org
+Description: computer vision Clustering and Search in Multi-Dimensional spaces library
+ This package contains the OpenCV (Open Computer Vision) clustering and
+ search in Multi-Dimensional spaces runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-contrib3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 18771
+Depends: libopencv-contrib3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-contrib3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 18153884
+MD5sum: 588de95717a1fc2245b625167b384851
+SHA1: 0aa9db066d4ce53151b7743569a1102e40fb9a7a
+SHA256: 0649b5cfa9b37415192970c2d9a38f7c3d298e24444f32b5ca3c87d8f58b2418
+SHA512: 9bf6e69b56969ba2fa0316b3b646fee3c9b7ab3773aac4fcac326d8a07ad75af11892a66bd2f3bd789d6fc944672e4c7f4dfc29245653fa8e08e1d005542f401
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-contrib3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 07cfe20b755ee9e1685f9a89eb8a1c8a965fe9f5 08fb623ab26d7539fb3c7c1b06c74b44e3c717cb 0f59f47fc4de7606cc6451113798252df6a144dc 2210faa995bfa358ec1492675b3df50cdbb9eeba 225486457f73f2a12a686da5f0db279e8e4a367d 267ec881725155b1f032fe32bf9460f130c55a7b 48bf39befeaf712b96ff91764198ad2cd337072c 4af7ba094a4aefd6434f254e0addfab0f3371ac9 55a55f6f6936fe90b951579aca450d2679c99a3f 77eae5dd6074253917a77a64aeb58d6fa4cf44a5 7ab23c2d395cc23f26fc87c4814d9faf2eb146f8 84dd30847e1bd5c2856a8f9395317dc9e7d7bb46 95d3a56af3131198aad34b8a3232cba3ee32b763 b5efcc85f64eb44396561adb551691f48c62589d b7b9438189694585a35a09413a219cb136023033 c68288ec4e71e39e7a8b4a676f7fcee4c6262eb3 ca4b330d7b328b26b0c1c2ed0ae2f3bc94906ac7 d2e4c7397640af016c426194a31919393a085275 d59b3d928ce1b6f09971a6a25d347143bb06ea9b e42f21a95cc8f1e78443f1aca6c3bb83a7ec3be1 e7d7c4167579d93856b5190da93c7aa328442d5d e859ef5ce8bafa7ee105c3395189fd4524382ebd f56c44ded8fbac25620e274585ba4d58191acd6c ffc94fcd7cac12a740376a7838e59fd74c6c276b
+
+Package: libopencv-shape3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 703
+Depends: libopencv-shape3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-shape3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 673598
+MD5sum: 8ef3dab9fa4bbe92c11b8a62f6f83d0a
+SHA1: d1881827cb2aa9b895a2bf55c8dbbf4c7c875d20
+SHA256: cfedc3fc26ab522c69f96090498db3290037d71b16d0c4aa555632492604bfa8
+SHA512: 90a6af7f1337bac83c410518b26b81d93f6ed036d383d486623f36046bbb91035ecd8a5890caed5b8a0a6e3c011c261c3af09fe17af72b42d65b281b3d5f4512
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-shape3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 94b30b20dff35eb16a16bceefb4ec18054efd663
+
+Package: libopencv-features2d3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 425
+Depends: libopencv-flann3.2 (= 3.2.0+dfsg-4dt421), libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libopencv-videoio3.2, libstdc++6 (>= 5), libtbb2
+Filename: stretch/libopencv-features2d3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 196056
+MD5sum: 8b4bf590d8bad97b86103893fb2b4858
+SHA1: 9517e803624343e64b38671dd794b4d7054b2886
+SHA256: ef0df0d3461bfaf70c965399c09f9b888a167393835f255d833fba8c513ee519
+SHA512: 61d58dd0307e382ce225051fefe29f29520072cfa0e40dd7c53f5c407bbef58cd4a80c13faf3951be9e8e64ecab46252ae81c2e1ff6fc142dfbcc43d75fa5860
+Homepage: https://opencv.org
+Description: computer vision Feature Detection and Descriptor Extraction library
+ This package contains the OpenCV (Open Computer Vision) Feature Detection
+ and Descriptor Extraction runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-features2d-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1103
+Depends: libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421), libopencv-flann-dev (= 3.2.0+dfsg-4dt421), libopencv-highgui-dev (= 3.2.0+dfsg-4dt421), libopencv-ml-dev (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-features2d-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 265330
+MD5sum: 65f300f840e76942c60e18354cb5af36
+SHA1: c985a1f155ed569810383d0bd278582780774da4
+SHA256: 7eb67dbcf50472ccbc6c5127116a5e6ee316426080c39ea4218a06c662627069
+SHA512: 89c5ed6110bbaa15f42547d00985a16ca16d95206bd18d1c688d1ab0a13dfa6c8860f68c7b33d1c309f8cb65624593e29af58da1d189e10423a88998d8de144a
+Homepage: https://opencv.org
+Description: development files for libopencv-features2d3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Feature Detection and
+ Descriptor Extraction library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: nnpack
+Architecture: armhf
+Version: 20170518-1
+Priority: optional
+Section: libs
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 899
+Filename: stretch/nnpack_20170518-1_armhf.deb
+Size: 211582
+MD5sum: 9d59cc8d4aee690d13f6adc375dfd20d
+SHA1: e08a1991441dc1601843ee7ac8bae7d506eb3e36
+SHA256: ef59962bb8f61adb930eebf1d1335b0dec9b80b6bfd03687adca1352c95983b3
+SHA512: 7a04dd613d8bef4fdae517d38a45aa9534ff6d1fd1d43673d7d9815e6dfda79426357ce29c82498820db73fcecc0ebe338bb434d4af2728178718747eea661a4
+Homepage: https://github.com/digitalbrain79/NNPACK-darknet
+Description: Acceleration package for neural networks on multi-core CPUs
+ NNPACK is an acceleration package for neural network computations.
+ NNPACK aims to provide high-performance implementations of convnet
+ layers for multi-core CPUs.
+ .
+ NNPACK is not intended to be directly used by machine learning
+ researchers; instead it provides low-level performance primitives
+ leveraged in leading deep learning frameworks, such as PyTorch, Caffe2,
+ MXNet, tiny-dnn, Caffe, Torch, and Darknet.
+ .
+ This package is a patched version for Darknet.
+
+Package: libopencv-objdetect3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1097
+Depends: libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-objdetect3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1054904
+MD5sum: 2390d3d30bda6bb1028498d7af2198b6
+SHA1: 4d503a4f4d8829457956fcea0867a5a88e724bab
+SHA256: 055d568cd6784f32cb754799369c0b2afd6b70d7d773cad175720c776edc8cb8
+SHA512: 9b8f21f57a01a28a952bae11db75579c9d7e266b96e9e66252b816776d090c22342e1e6a847e5a146cf4006542786668cdaadc74308045dd826f872a625c29b8
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-objdetect3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 7e44a79d89b2f9b50a10bac2f5c23983b8495748
+
+Package: libopencv-videoio-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 521
+Depends: libavresample-dev, libgphoto2-dev, libopencv-imgcodecs-dev (= 3.2.0+dfsg-4dt421), libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-videoio-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 125780
+MD5sum: fbd00ee1009295cf4765bf55dede21c0
+SHA1: 29765e0af4dca9c979bcfb89462e8cda13ae374e
+SHA256: c97e7056a3646d655a00dd6e58850b8f5fe469d5125f0b000d4470cc0b2c601a
+SHA512: 3b09809a936eee90c25cc586a7598c0a74dcb8f1c7c247235a3253fdde59005e70665060558650a476029030f1254ab23a03eb504cf64639c4b89b94f37a4b0f
+Homepage: https://opencv.org
+Description: development files for libopencv-videoio3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) Video I/O library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: tinyyolovoc
+Architecture: all
+Version: 20170816
+Priority: optional
+Section: unknown
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 62000
+Filename: stretch/tinyyolovoc_20170816_all.deb
+Size: 58107280
+MD5sum: 1a4f68136b9f5fc047692a742ccf27d7
+SHA1: d54805be19b04f8b7a29831102cc1fb5a37c58a8
+SHA256: 10e185d44be690edd8e099a167cb2502c9138bb62d2d49d754ca020032be9d41
+SHA512: 8971882a2c921edc3a04269625211cd8cd61d9f5b396812c5e3c93a298618e9cff02c314a3f8b23c8dd0ffc26f792317a6c8167171261b87d1df04cb9241777e
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libopencv-videostab-dev
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 613
+Depends: libopencv-calib3d-dev (= 3.2.0+dfsg-4dt421), libopencv-photo-dev (= 3.2.0+dfsg-4dt421), libopencv-video-dev (= 3.2.0+dfsg-4dt421), libopencv-videostab3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-videostab-dev_3.2.0+dfsg-4dt421_armhf.deb
+Size: 128508
+MD5sum: 9c4d4f32f6fd8b71e84a23ab4c1ddca5
+SHA1: 680a0f9781a4a483b8a353b3621aeb9b5f8ca69b
+SHA256: 13d89c744ff7314944146bc67710185a2e88f14bdf88a867284dd674bb7a3458
+SHA512: ad56bb1e48df5fb5896b61755513eaa4179a44cdd1c2968026183ed7c8b216bb089feb68b72cbc8e840298b0394ac7f9b2ef8975265a5c195356342cae75100c
+Homepage: https://opencv.org
+Description: development files for libopencv-videostab3.2
+ This package contains the header files and static library needed to compile
+ applications that use OpenCV (Open Computer Vision) video stabilization
+ library.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-viz3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 265
+Depends: libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libvtk6.3, libc6 (>= 2.4), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.5), libgl1-mesa-glx | libgl1, libgl2ps1, libglu1-mesa | libglu1, libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libsm6, libstdc++6 (>= 5), libtbb2, libtiff5 (>= 4.0.3), libx11-6, libxext6, libxt6, zlib1g (>= 1:1.1.4)
+Filename: stretch/libopencv-viz3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 112840
+MD5sum: e63a409d503f582da57fbfd08ff35004
+SHA1: b8a8a7502e45f7b9f0a0e7a3882e9f0a92beae0e
+SHA256: 96c7a3bf4212b0a3996aef691510f7fa8f48fce11b3f1b12cd9d7f0e9aca09b6
+SHA512: 44a75f49c0d3695bf4dac5dce832ccf25bca1dc1b6be26b763a46b975aa3657d98b6823406c04db1600756bdb7c5fdced53e222d7a406c22bd4e1f590047f28e
+Homepage: https://opencv.org
+Description: computer vision 3D data visualization library
+ This package contains the OpenCV (Open Computer Vision) 3D data visualization
+ runtime libraries.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: darknet-dbgsym
+Architecture: armhf
+Version: 20171109-3
+Priority: extra
+Section: debug
+Source: darknet-nnpack
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Installed-Size: 73
+Depends: darknet (= 20171109-3)
+Filename: stretch/darknet-dbgsym_20171109-3_armhf.deb
+Size: 18242
+MD5sum: 4a77305a25259397cff8987261d7f102
+SHA1: dbf08ad97ae4da54dddb496ae288f124f36ff9c9
+SHA256: eb18f8ecc15eccc9960a1bc1a6de78408f8e1fb2ae8ee1cf57caa668675efa1e
+SHA512: 668bf370129d6f8cf67a82bc58da82043a5caebc45864d29a234e3ac49d21dbc3032cdcaf1202ba9a1deb940f917c0ce1e299d15c2b3bf96d3f2d36bd76fe219
+Homepage: https://github.com/digitalbrain79/darknet-nnpack
+Description: Debug symbols for darknet
+Auto-Built-Package: debug-symbols
+Build-Ids: 6c356d0c30696d2ee56b813bb20cb0d04ca9752c
+
+Package: libopencv-contrib3.2
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 3230
+Depends: libopencv-calib3d3.2 (= 3.2.0+dfsg-4dt421), libopencv-core3.2 (= 3.2.0+dfsg-4dt421), libopencv-features2d3.2 (= 3.2.0+dfsg-4dt421), libopencv-flann3.2 (= 3.2.0+dfsg-4dt421), libopencv-highgui3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgcodecs3.2 (= 3.2.0+dfsg-4dt421), libopencv-imgproc3.2 (= 3.2.0+dfsg-4dt421), libopencv-ml3.2 (= 3.2.0+dfsg-4dt421), libopencv-objdetect3.2 (= 3.2.0+dfsg-4dt421), libopencv-photo3.2 (= 3.2.0+dfsg-4dt421), libopencv-shape3.2 (= 3.2.0+dfsg-4dt421), libopencv-stitching3.2 (= 3.2.0+dfsg-4dt421), libopencv-superres3.2 (= 3.2.0+dfsg-4dt421), libopencv-video3.2 (= 3.2.0+dfsg-4dt421), libopencv-videoio3.2 (= 3.2.0+dfsg-4dt421), libopencv-videostab3.2 (= 3.2.0+dfsg-4dt421), libopencv-viz3.2 (= 3.2.0+dfsg-4dt421), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.0), libgl1-mesa-glx | libgl1, libgl2ps1, libglu1-mesa | libglu1, libhdf5-100, libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), liblept5, libpng16-16 (>= 1.6.2-1), libsm6, libstdc++6 (>= 5.2), libsz2, libtbb2, libtesseract3, libtiff5 (>= 4.0.3), libvtk6.3, libx11-6, libxext6, libxt6, zlib1g (>= 1:1.1.4)
+Filename: stretch/libopencv-contrib3.2_3.2.0+dfsg-4dt421_armhf.deb
+Size: 1308946
+MD5sum: ec53ad276b8abe4eb3c0c84bdccace30
+SHA1: 99929cb71731472ce1cf93d446577ad782c20dc8
+SHA256: de40241b27f6036e95a7a49d43061b57b09eb63aec245bea57ac6ad6a545b1ff
+SHA512: 0881254bf2b7a1219fc776a1e6292291402c2d7be3e543b95c0228e20f131c1cc896da93d40db66cd7d92294971fa4db84a176b43373ee39f41eadc48a9d71ab
+Homepage: https://opencv.org
+Description: computer vision contrlib library
+ This package contains the OpenCV (Open Computer Vision) opencv_contrib runtime
+ libraries. This package contain following contrlib libraries:
+ .
+   - aruco
+   - bgsegm
+   - bioinspired
+   - ccalib
+   - dnn
+   - dpm
+   - fuzzy
+   - hdf
+   - line_descriptor
+   - optflow
+   - plot
+   - reg
+   - saliency
+   - stereo
+   - structured_light
+   - rgbd
+   - surface_matching
+   - tracking
+   - datasets
+   - text
+   - face
+   - ximgproc
+   - xobjdetect
+   - xphoto
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: python3-opencv-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 3220
+Depends: python3-opencv (= 3.2.0+dfsg-4dt421)
+Filename: stretch/python3-opencv-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 2874208
+MD5sum: 296b0a1c74ee3931c85e4f70a9a440a8
+SHA1: d8537c41d7a3009d3118bd87f95957d7e305a78b
+SHA256: 07ca34bf06f92c03142152ea058abc7037f4a275f56edbc5f009713171d726a8
+SHA512: b7d5ea857a58847bd538cdacdf53997b0da7e1d6e64867d1c7f544d69444a5c849592aa9e24d0dec874a20f3600812ce2e170b8d6e8dc79e0a5c2150f85fdaea
+Homepage: https://opencv.org
+Description: Debug symbols for python3-opencv
+Auto-Built-Package: debug-symbols
+Build-Ids: 5a1107f7f4209f1ad865e067a2374f906e2f5a21
+
+Package: opencv-data
+Architecture: all
+Version: 3.2.0+dfsg-4dt421
+Priority: optional
+Section: libdevel
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 9848
+Breaks: libopencv-dev (<= 2.3.1-12)
+Filename: stretch/opencv-data_3.2.0+dfsg-4dt421_all.deb
+Size: 1206440
+MD5sum: 8567102c88ba28d70aea313fd02010b9
+SHA1: 2dd7dee995cd9e4fb84a8ac764b7b514b7bf687a
+SHA256: 4197b02b17b7fd9de0086d6027f1c8eeddceafc413489f3f0268ec6bda0497a3
+SHA512: 6c899c87b805f79cbabd5b3c1b7f9c21164399f373f3839db7c78f8b7430d3880f916c4545c3f8cb6db0d16ee189ad9d867cc75d51a6ccc443d0b1f44aa575ba
+Homepage: https://opencv.org
+Description: development data for opencv
+ This package contains some architecture independent files useful for
+ development with OpenCV.
+ .
+ The Open Computer Vision Library is a collection of algorithms and sample
+ code for various computer vision problems. The library is compatible with
+ IPL (Intel's Image Processing Library) and, if available, can use IPP
+ (Intel's Integrated Performance Primitives) for better performance.
+ .
+ OpenCV provides low level portable data types and operators, and a set
+ of high level functionalities for video acquisition, image processing and
+ analysis, structural analysis, motion analysis and object tracking, object
+ recognition, camera calibration and 3D reconstruction.
+
+Package: libopencv-video3.2-dbgsym
+Architecture: armhf
+Version: 3.2.0+dfsg-4dt421
+Multi-Arch: same
+Priority: extra
+Section: debug
+Source: opencv
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 1030
+Depends: libopencv-video3.2 (= 3.2.0+dfsg-4dt421)
+Filename: stretch/libopencv-video3.2-dbgsym_3.2.0+dfsg-4dt421_armhf.deb
+Size: 996748
+MD5sum: 8b37a559bd3923604dee90a762d74ade
+SHA1: 6b2cb30a570c7f82c6b0b9abce63d563e735558a
+SHA256: 0a91ffec0916dac7e2da7f4e1134f1cca7d5f08e010bd00226c4742bfba54665
+SHA512: b9607bbb0c74e230e115cfcb9a78be27164d232d323b79373b2c9f29c8edf0e919f84556afc4509b2f80a9baaddd93ee8b0e4b911902227c8010264c0b0d37f0
+Homepage: https://opencv.org
+Description: Debug symbols for libopencv-video3.2
+Auto-Built-Package: debug-symbols
+Build-Ids: 6256c72795106d6111a6d790c6461529670c33c2
+
