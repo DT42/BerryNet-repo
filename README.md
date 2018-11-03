@@ -16,5 +16,6 @@ deb-src https://raw.githubusercontent.com/DT42/BerryNet-repo/master stretch/
 Then execute the command in terminal
 
 ```
-$ sudo apt-get update  # use apt-get instead of apt to avoid unsigned repo error
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0C4CC4C
+$ sudo apt get update
 ```
