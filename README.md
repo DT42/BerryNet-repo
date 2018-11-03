@@ -17,5 +17,5 @@ Then execute the command in terminal
 
 ```
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0C4CC4C
-$ sudo apt get update
+$ sudo apt update
 ```
