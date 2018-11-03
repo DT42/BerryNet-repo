@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Origin: BerryNet
 Label: BerryNet
 Suite: unstable
@@ -26,3 +29,20 @@ SHA256:
  268fc6f19b6c112f401553c26d17f53109d9dbec8ab2c5ff5ef0087c904cfbb8            7900 Sources
  fc7b53d807af39710d1a26a606f9e6bc15030c3f1e63202365b2a82005963117            2914 Sources.gz
  8f8df74bbbde26335ec7c8aef3e32cd4041d49aa1ae6c21d73f03ef2d618e4cf            2956 Sources.bz2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJb3WkPAAoJEKtixn/AxMxMEUoP/inqmwZeGdPA/HoAffSIIG7b
+zfmOAPuztVMyFR516apt7ssNjMErKiG6CFfCOoP+hg94HGFv3MfotkuUF7zE5I6f
+WAEXNksDWjpM7MoVbKCdXtVzOcnmGvszusU5ZYl9JVvv+FYgO+9Y2jVO9yW58yhz
+4LF1ywoFeQqoKupMPIZaCTwdzv48caupdbDGf7u2A4M/xYP0vfnFYefO/N3x9qP8
+zQcqW5qkOv9tOlUjjqzNhtjbuExSu4SM4MuVMBObe9byWcgEWTu3Ftm8tdGh5N+6
+jSwgqX3WiKBCeWOMxDv3uHNkUMLcyY2dGzk3AAQ0IjzrDqJQIwqIrymhxoaoXxAb
+TX6v5ubGTk8YlBDSeaNQLi5vmDgrPjFnRepKELWzZTXCmC1CpvkAsy9eOXaLZqZg
+Sa3oYNhZOLcm7fMV6NX81h0BBeVKpNy0wjbzNMFlZsGIILfxP8N2Svj0lm6yrjVh
+4j4RXXW6jXHXO7odk8WHSYOHPnhp7J/36KcFfRIsq4AxKWfxJrS5keylfkyU8eo5
+YO7ZWQtxrAK5KomNCdwPybeY4cyzmhl21vx1bTiMRhZisyg/qxGWIRRGvx650rPI
+MEBc0euAXWrWXL825fvJPk68hXscVI93nnR1COAeYP4Bzec+4E2QdKZCfvAWl2VS
+QAvaYhYx3zRsGqkb16Ez
+=Y/Ho
+-----END PGP SIGNATURE-----
