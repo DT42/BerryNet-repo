@@ -1,0 +1,5 @@
+openvino (1.0.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Bofu Chen (bafu) <bofu@dt42.io>  Fri, 14 Jun 2019 23:44:12 +0800

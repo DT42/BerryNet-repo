@@ -1,0 +1,31 @@
+Source: openvino
+Section: metapackages
+Priority: optional
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://software.intel.com/en-us/openvino-toolkit
+#Vcs-Git: git://anonscm.debian.org/collab-maint/openvino.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/openvino.git
+
+Package: openvino
+Architecture: any
+Depends:
+    ${shlibs:Depends},
+    ${misc:Depends},
+    intel-openvino-base-2019.1.144,
+    intel-openvino-base-pset-2019.1.144,
+    intel-openvino-dldt-base-2019.1.144,
+    intel-openvino-ie-rt-2019.1.144,
+    intel-openvino-ie-rt-core-ubuntu-xenial-2019.1.144,
+    intel-openvino-ie-rt-cpu-ubuntu-xenial-2019.1.144,
+    intel-openvino-ie-rt-hddl-ubuntu-xenial-2019.1.144,
+    intel-openvino-ie-rt-vpu-ubuntu-xenial-2019.1.144,
+    intel-openvino-ie-sdk-ubuntu-xenial-2019.1.144,
+    intel-openvino-model-optimizer-2019.1.144,
+    intel-openvino-setupvars-2019.1.144
+Description: Intel OpenVINO
+ Develop multiplatform computer vision solutions.
+ .
+ Make your vision a reality on Intel platforms from smart cameras and
+ video surveillance to robotics, transportation, and more.
