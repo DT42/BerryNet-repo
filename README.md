@@ -19,7 +19,8 @@ BerryNet repository will be ready after BerryNet installation. If you want to us
 1. Add BerryNet repository key
 
     ```
-    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0C4CC4C
+    $ sudo apt-get install add-apt-key
+    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv AB62C67FC0C4CC4C
     ```
 
 1. Update package management system
