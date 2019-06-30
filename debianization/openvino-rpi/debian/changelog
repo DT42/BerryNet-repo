@@ -1,0 +1,5 @@
+openvino-rpi (1.0.0-1) unstable; urgency=medium
+
+  * OpenVINO 2019.1.144.
+
+ -- Bofu Chen (bafu) <bofu@dt42.io>  Fri, 14 Jun 2019 23:44:12 +0800
