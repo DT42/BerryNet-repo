@@ -3,11 +3,9 @@
 # Script to install the BerryNet repo onto a
 # Debian or Ubuntu system.
 #
-# Run as root or insert `sudo -E` before `bash`:
-#
-# curl -sL https://raw.githubusercontent.com/DT42/BerryNet-repo/master/setup.sh | bash -
+# curl -sL https://raw.githubusercontent.com/DT42/BerryNet-repo/master/setup.sh | sudo -E bash -
 #   or
-# wget -qO- https://raw.githubusercontent.com/DT42/BerryNet-repo/master/setup.sh  | bash -
+# wget -qO- https://raw.githubusercontent.com/DT42/BerryNet-repo/master/setup.sh  | sudo -E bash -
 #
 
 set -e
