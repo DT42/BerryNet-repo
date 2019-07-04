@@ -4,27 +4,10 @@ BerryNet leverages Debian package management system to control system quality, a
 
 # Setup
 
-BerryNet repository will be ready after BerryNet installation. If you want to use BerryNet repository manually, here are the steps:
+BerryNet repository will be ready after BerryNet installation. If you want to use BerryNet repository manually, run the command below:
 
-1. Setup the BerryNet sources list (one of the two methods below)
+```
+$ curl -sL https://raw.githubusercontent.com/DT42/BerryNet-repo/master/setup.sh | sudo -E bash -
+```
 
-    * Method 1: Copy `<berrynet>/config/berrynet.list` to `/etc/apt/sources.list.d/`
-    * Method 2: Create `/etc/apt/sources.list.d/berrynet.list` with the content below
-
-      ```
-      deb http://repo.berrynet.org/ stretch/
-      deb-src http://repo.berrynet.org/ stretch/
-      ```
-
-1. Add BerryNet repository key
-
-    ```
-    $ sudo apt-get install add-apt-key
-    $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv AB62C67FC0C4CC4C
-    ```
-
-1. Update package management system
-
-    ```
-    $ sudo apt-get update
-    ```
+BerryNet repository sources list will be installed to `/etc/apt/sources.list.d/berrynet.list`.
