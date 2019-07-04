@@ -1,0 +1,16 @@
+Source: openvino-rpi
+Section: metapackages
+Priority: optional
+Maintainer: Bofu Chen (bafu) <bofu@dt42.io>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://software.intel.com/en-us/openvino-toolkit
+
+Package: openvino-rpi
+Architecture: any
+Depends: ${misc:Depends}
+Description: Intel OpenVINO
+ Develop multiplatform computer vision solutions.
+ .
+ Make your vision a reality on Intel platforms from smart cameras and
+ video surveillance to robotics, transportation, and more.
