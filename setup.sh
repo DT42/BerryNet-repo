@@ -10,12 +10,22 @@
 
 set -e
 
+get_distribution() {
+    echo $(lsb_release -c -s)
+}
+
 echo 'Adding the BerryNet signing key to your keyring...'
 curl -sL https://raw.githubusercontent.com/DT42/BerryNet-repo/master/berrynetrepo.gpg.key | apt-key add -
 
 echo "Creating apt sources list file for the BerryNet repo..."
-curl -sL -o /etc/apt/sources.list.d/berrynet.list \
-    https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet.list
+dist=$(get_distribution)
+if [ $dist == "buster" ]; then
+    curl -sL -o /etc/apt/sources.list.d/berrynet.list \
+        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet_buster.list
+else
+    curl -sL -o /etc/apt/sources.list.d/berrynet.list \
+        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet.list
+fi
 
 echo 'Running `apt-get update` for you...'
 apt-get update
