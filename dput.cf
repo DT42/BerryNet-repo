@@ -1,0 +1,13 @@
+[berrynet]
+fqdn = localhost
+method = local
+incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --batch -c ~/codes/berrynet-dev-repo/mini-dinstall.conf
+
+[staging]
+fqdn = localhost
+method = local
+incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --batch -c ~/codes/berrynet-dev-repo/mini-dinstall.conf
