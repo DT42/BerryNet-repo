@@ -21,7 +21,7 @@ echo "Creating apt sources list file for the BerryNet repo..."
 dist=$(get_distribution)
 if [ $dist == "buster" ]; then
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
-        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet_buster.list
+        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet-buster.list
 else
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
         https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet.list
