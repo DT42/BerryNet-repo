@@ -1,0 +1,32 @@
+#!/bin/bash
+# Make a local directory to be a Debian repository.
+#
+# The utility is a development tool to speedup package verification.
+
+usage() {
+    echo "Usage: localrepo [deb-dirpath]"
+    exit 1
+}
+
+
+if [ "$1" = "" ]; then
+    target_dir="$PWD"
+elif [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    usage
+else
+    target_dir="$1"
+fi
+
+
+echo -n "Scan Debian packages in ${target_dir}..."
+cd $target_dir
+dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
+echo "done"
+
+echo -n "Generate sources list file local.list..."
+echo "deb file:$target_dir ./" | sudo tee /etc/apt/sources.list.d/local.list
+echo "done"
+
+echo -n "Update repository information..."
+sudo apt-get update
+echo "done"
