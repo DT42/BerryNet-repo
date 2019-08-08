@@ -25,6 +25,9 @@ if [ $dist == "buster" ]; then
 elif [ $dist == "xenial" ]; then
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
         https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet-xenial.list
+elif [ $dist == "bionic" ]; then
+    curl -sL -o /etc/apt/sources.list.d/berrynet.list \
+        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet-bionic.list
 else
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
         https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet.list
