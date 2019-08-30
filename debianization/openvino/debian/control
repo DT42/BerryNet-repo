@@ -9,7 +9,7 @@ Homepage: https://software.intel.com/en-us/openvino-toolkit
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/openvino.git
 
 Package: openvino
-Architecture: any
+Architecture: amd64
 Depends:
     ${shlibs:Depends},
     ${misc:Depends},
