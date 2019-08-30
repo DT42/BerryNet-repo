@@ -20,8 +20,8 @@ set -e
 
 case "$1" in
     configure)
-        sed -i 's%<INSTALLDIR>%/opt/intel/openvino_2019.1.144%' \
-            /opt/intel/openvino_2019.1.144/bin/setupvars.sh
+        sed -i 's%<INSTALLDIR>%/opt/intel/openvino_2019.2.242%' \
+            /opt/intel/openvino_2019.2.242/bin/setupvars.sh
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
