@@ -1,13 +1,55 @@
-[berrynet]
+[bn-buster]
 fqdn = localhost
 method = local
 incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
 allow_unsigned_uploads = 1
-post_upload_command = mini-dinstall --batch -c ~/codes/berrynet-dev-repo/mini-dinstall.conf
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/berrynet-dev-repo/mini-dinstall-buster.conf
 
-[staging]
+[bn-xenial]
 fqdn = localhost
 method = local
 incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
 allow_unsigned_uploads = 1
-post_upload_command = mini-dinstall --batch -c ~/codes/berrynet-dev-repo/mini-dinstall.conf
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/berrynet-dev-repo/mini-dinstall-xenial.conf
+
+[bn-bionic]
+fqdn = localhost
+method = local
+incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/berrynet-dev-repo/mini-dinstall-bionic.conf
+
+[bn-stretch]
+fqdn = localhost
+method = local
+incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/berrynet-dev-repo/mini-dinstall-stretch.conf
+
+[bn-staging]
+fqdn = localhost
+method = local
+incoming = ~/codes/berrynet-dev-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/berrynet-dev-repo/mini-dinstall-staging.conf
+
+[aikea]
+fqdn = localhost
+method = local
+incoming = ~/codes/aikea-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --no-db --batch -c ~/codes/aikea-repo/mini-dinstall-buster.conf
+
+[dt42repo]
+fqdn = localhost
+method = local
+incoming = /home/repository/public_html/debian/mini-dinstall/incoming
+allow_unsigned_uploads = 0
+post_upload_command = mini-dinstall --batch
+
+[test]
+fqdn = localhost
+method = local
+incoming = ~/testrepo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --batch -c ~/testrepo/mini-dinstall.conf
