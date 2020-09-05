@@ -1,3 +1,10 @@
+[bn-focal]
+fqdn = localhost
+method = local
+incoming = ~/berrynet-repo/mini-dinstall/incoming
+allow_unsigned_uploads = 1
+post_upload_command = mini-dinstall --no-db --batch -c ~/berrynet-repo/mini-dinstall-focal.conf
+
 [bn-buster]
 fqdn = localhost
 method = local
