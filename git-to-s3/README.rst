@@ -1,3 +1,6 @@
+Credit of original [git-to-s3](https://github.com/JustinWingChungHui/git-to-s3) belongs to JustinWingChungHui.
+
+
 git-to-s3
 ============
 
