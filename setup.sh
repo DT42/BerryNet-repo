@@ -28,6 +28,9 @@ elif [ $dist == "xenial" ]; then
 elif [ $dist == "bionic" ]; then
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
         https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet-bionic.list
+elif [ $dist == "focal" ]; then
+    curl -sL -o /etc/apt/sources.list.d/berrynet.list \
+        https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet-focal.list
 else
     curl -sL -o /etc/apt/sources.list.d/berrynet.list \
         https://raw.githubusercontent.com/DT42/BerryNet/master/config/berrynet.list
