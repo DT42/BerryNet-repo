@@ -25,6 +25,10 @@ check_preconditions() {
     fi
 }
 
+install_devscripts() {
+    sudo apt install -y devscripts
+}
+
 install_mini_dinstall() {
     sudo apt install -y mini-dinstall
 
