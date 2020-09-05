@@ -25,8 +25,8 @@ check_preconditions() {
     fi
 }
 
-install_devscripts() {
-    sudo apt install -y devscripts
+install_deb_scripts() {
+    sudo apt install -y devscripts debhelper
 }
 
 install_mini_dinstall() {
@@ -73,6 +73,7 @@ run_mini_dinstall() {
 
 main() {
     check_preconditions
+    install_deb_scripts
     install_mini_dinstall
     create_repo_dir
     copy_dput_config
