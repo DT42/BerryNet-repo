@@ -38,6 +38,8 @@ export GNUPGHOME=$HOME/.gnupg
 # You can get the key ID from current user, set a user, or ID.
 #KEYID=$(getent passwd $USER | cut -f 5 -d : | cut -f 1 -d ,)
 #KEYID=43FE9005 or "Archive signing key"
+# BerryNet public key
+KEYID="BDC8D74E641C2BC34632A5F3AB62C67FC0C4CC4C"
 # You can set the digest here, keeping in mind apt will reject anything less than 256.
 DIGEST=SHA512
 
